@@ -40,7 +40,7 @@ window.smartsupp||(function(d) {
 </head>
 <style>
     body{
-        font-family: 'MTN Brighter Sans';
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     }
 </style>
 

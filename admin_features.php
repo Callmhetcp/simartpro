@@ -78,8 +78,8 @@ checkAdminAccess(); // Ensure only admins can access this page
 --surface: #222222;
 --text-color: #F5F5F5;
 --secondary-text: #A9A9A9;
---primary-dark: #A6841C;
---primary-color: #6e591a;
+--primary-dark: #f3f2ef;
+--primary-color: #cccccc;
 --border-color: #2A2A2A;
 --hover-color: rgba(255, 255, 255, 0.05);
 --positive-color: #00c853;

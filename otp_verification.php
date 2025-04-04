@@ -33,7 +33,7 @@ if (!isset($_SESSION["email"])) {
         #timer {
             font-size: 40px;
             font-weight: 600;
-            color: #6e591a;
+            color: #cccccc;
             margin: 20px;
         }
 
@@ -65,7 +65,7 @@ if (!isset($_SESSION["email"])) {
         }
 
         .otp-field input:focus {
-            border: 2px solid #6e591a;
+            border: 2px solid #cccccc;
             box-shadow: 0 0 2px 2px #4e46e593;
         }
 
@@ -78,7 +78,7 @@ if (!isset($_SESSION["email"])) {
         }
 
         .links {
-            color: #6e591a;
+            color: #cccccc;
             cursor: pointer;
         }
     </style>

@@ -6,16 +6,16 @@
     --box-shadow: 7px 7px 15px 0px #0E1015;
     
 }
-/* background: linear-gradient(135deg, #6e591a, #B68E2E); */
+/* background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc); */
 
 
 :root {
-    --background: #1a1a1a;
+    --background: #060606;
     --surface: #222222;
     --text-color: #F5F5F5;
     --secondary-text: #A9A9A9;
-    --primary-dark: #A6841C;
-    --primary-color: #6e591a;
+    --primary-dark: #f3f2ef;
+    --primary-color: #cccccc;
     --border-color: #383838;
     --hover-color: rgba(255, 255, 255, 0.05);
     --positive-color: #00c853;
@@ -23,7 +23,6 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
 }
-
 
 
 
@@ -37,6 +36,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    /* background:  linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc); */
 
 
 
@@ -86,7 +86,7 @@ body{
 .scroll_watcher{
     height: 5px;
     background: var(--text-color);
-    /* background: linear-gradient(135deg, #6e591a, #B68E2E); */
+    /* background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc); */
     width: 100%;
     position: fixed;
     top: 0px;
@@ -110,7 +110,7 @@ body{
     width: 100%;
     position: sticky;
     top: 0;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     background: var(--background);
     /* display: none; */
 
@@ -158,7 +158,7 @@ body{
     width: 50px;
     height: 5px;
     /* background: white; */
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     display: flex;
     flex-direction: column;
     margin: 9px auto;
@@ -238,7 +238,7 @@ body{
 .desktop_navbar .wrapper > nav .logo .logo_name, 
 .footer .logo .logo_name{
     color: var(--text-color);
-    font-family: "Poppins", serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -246,7 +246,7 @@ body{
 
 }
 .desktop_navbar .wrapper > nav > ul{
-    /* background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a); */
+    /* background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc); */
 
     display: flex;
     gap: 30px;
@@ -268,7 +268,7 @@ body{
 
 }
 .desktop_navbar .wrapper > nav > ul > li a:hover{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -280,7 +280,7 @@ body{
     width: 150px;
     display: flex;
     flex-direction: column;
-    background: #242834;
+    background: #222222;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.181);
     text-align: left;
     transform: translateY(40%) translateX(-22%);
@@ -316,7 +316,7 @@ body{
     /* height: 100%; */
     width: 100%;
     align-self: center;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
 
     
@@ -346,7 +346,7 @@ body{
     letter-spacing: 0.8px;
     font-size: 13.3px;
     transition: all 0.5s ease;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
 
 }
@@ -356,7 +356,7 @@ body{
     position: absolute;
     height: 107%;
     width: 103%;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     border-radius: inherit;
     transition: all 0.6s ease;
     z-index: -2;
@@ -431,12 +431,12 @@ body{
     }
 }
 .desktop_navbar .wrapper > nav .notification_icon{
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     cursor: pointer;
     
 }
 .desktop_navbar .wrapper > nav .notification_icon i{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -514,7 +514,7 @@ body{
 }
 .mobile_navbar .wrapper ul li span > a{
     transform: translateX(20px);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     color: var(--text-color);
     text-decoration: none;
     transition: all 0.5s ease;
@@ -532,13 +532,13 @@ body{
 
 }
 .mobile_navbar .wrapper ul li:nth-of-type(1)  span a{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 .mobile_navbar .wrapper ul li span:hover a{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -589,7 +589,7 @@ body{
     color: var(--text-color);
 }
 .home_banner .text_content .big_text > span{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -647,7 +647,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.8px;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-weight: 900;
     font-size: 13.3px;
     transition: all 0.5s ease;
@@ -666,7 +666,7 @@ body{
     position: absolute;
     height: 107%;
     width: 103%;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     border-radius: inherit;
     z-index: -1;
     transition: all 0.6s ease;
@@ -674,7 +674,7 @@ body{
 }
 .home_banner .evoloution > .wrapper .left_axiz .text{
     margin-block-start: 30px;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     color: var(--secondary-text);
     font-size: 20px;
 
@@ -691,11 +691,11 @@ body{
 }
 .home_banner .evoloution > .wrapper .right_axiz .big_text{
     font-size: 33px;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
 
 }
@@ -754,7 +754,7 @@ body{
 }
 .section_1 > .wrapper .text header > div:nth-of-type(2){
     font-size: 33px;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -799,13 +799,13 @@ body{
     position: absolute;
     height: 107%;
     width: 103%;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     border-radius: inherit;
     z-index: -1;
     transition: all 0.6s ease;
 }
 .section_1 > .wrapper .text .btn a:hover{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
 
 }
 
@@ -865,7 +865,7 @@ body{
     transition: all 0.6s ease;
 }
 .section_2 > .wrapper > .card:hover:after{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
 
 }
 .section_2 > .wrapper > .card .wrapper{
@@ -876,13 +876,13 @@ body{
 .section_2 > .wrapper > .card .wrapper .big_text{
     font-size: 20px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     text-transform: uppercase;
     margin-block-end: 10px;
 }
 
 .section_2 > .wrapper > .card .wrapper .small_text{
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-size: 15px;
     letter-spacing: 0.7px;
     padding-inline-end: 30px;
@@ -908,7 +908,7 @@ body{
 .section_3 .wrapper header .big_text{
     font-size: 32px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     text-transform: uppercase;
     margin-block-end: 10px;
     padding-inline-start: 30px;
@@ -923,7 +923,7 @@ body{
 
 }
 .section_3 .wrapper header .small_text article{
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-size: 17px;
     letter-spacing: 0.7px;
     padding-inline-end: 30px;
@@ -939,7 +939,7 @@ body{
     cursor: pointer;
     color: var(--text-color);
     text-decoration: none;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     letter-spacing: 0.8px;
     font-weight: 900;
     font-size: 15.3px;
@@ -948,7 +948,7 @@ body{
     width: 200px;
 }
 .section_3 .wrapper header .small_text a:hover{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -983,7 +983,7 @@ body{
     transition: all 0.6s ease;
 }
 .section_3 .wrapper .card_wrapper .card:hover:after{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
 
 }
 
@@ -1014,13 +1014,13 @@ body{
 .section_3 .wrapper .card_wrapper .card > .wrapper .text .big_text{
     font-size: 22px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     text-transform: uppercase;
     margin-block-end: 10px;
 }
 
 .section_3 .wrapper .card_wrapper .card > .wrapper .text .small_text{
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-size: 17px;
     letter-spacing: 0.7px;
     padding-inline-end: 30px;
@@ -1035,7 +1035,7 @@ body{
     padding-inline-start: 50px;
     justify-content: center;
     align-items: center;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 
@@ -1149,7 +1149,7 @@ body{
     transition-delay: 1.7s;
  }
  .blog-slider__item:nth-of-type(1) .blog-slider__img{
-     box-shadow: 4px 12px 30px #6e591a15, -30px 0 100px #aa01ff22;
+     box-shadow: 4px 12px 30px #cccccc15, -30px 0 100px #aa01ff22;
  }
   .blog-slider__img {
     width: 300px;
@@ -1230,12 +1230,12 @@ body{
   .blog-slider__title {
     font-size: 32px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     text-transform: uppercase;
     margin-bottom: 20px;
  }
   .blog-slider__text {
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-size: 17px;
     letter-spacing: 0.7px;
     padding-inline-end: 30px;
@@ -1246,11 +1246,11 @@ body{
  }
   .blog-slider__button {
     display: inline-flex;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     padding: 15px 35px;
     border-radius: 50px;
     color: #fff;
-    box-shadow: 4px 13px 30px #6e591a15, -40px 0 100px #aa01ff22;
+    box-shadow: 4px 13px 30px #cccccc15, -40px 0 100px #aa01ff22;
     text-decoration: none;
     font-weight: 500;
     justify-content: center;
@@ -1316,7 +1316,7 @@ body{
  }
   .blog-slider__pagination .swiper-pagination-bullet-active {
     opacity: 1;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
 
     height: 30px;
     box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
@@ -1351,14 +1351,14 @@ body{
 .section_4 > .wrapper > header .head_text{
     font-size: 32px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     text-transform: uppercase;
     margin-block-end: 10px;
 }
 .section_4 > .wrapper > header .dash{
     width: 60px;
     height: 3px;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
 
 }
 .section_4 > .wrapper > .card_wrapper{
@@ -1394,7 +1394,7 @@ body{
     z-index: -1;
 }
 .section_4 > .wrapper > .card_wrapper  > .card:hover:after{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
 
 }
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper{
@@ -1417,8 +1417,8 @@ body{
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper header .big_text{
     font-size: 22px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1434,13 +1434,13 @@ body{
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper header .percentage > span:nth-of-type(1){
     font-size: 60px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-weight: 600;
 
 }
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper header .percentage > span:nth-of-type(2){
-    font-family: 'MTN Brighter Sans';
-        background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1453,11 +1453,11 @@ body{
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper header .small_text{
     font-size: 15px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     text-transform: uppercase;
 }
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper header .small_text > span{
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-weight: 600;
 
 }
@@ -1471,7 +1471,7 @@ body{
     flex-direction: column;
     gap: 22px;
     color: var(--secondary-text);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
 }
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper .list ul li{
@@ -1484,16 +1484,16 @@ body{
 }
 
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper .list ul li span:nth-of-type(1){
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-weight: 600;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 
 }
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper .list ul li span:nth-of-type(3){
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-weight: 600;
 }
 .section_4 > .wrapper > .card_wrapper  > .card > .wrapper .btn{
@@ -1516,7 +1516,7 @@ body{
     color: var(--text-color);
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     letter-spacing: 0.8px;
     font-weight: 900;
     font-size: 13.3px;
@@ -1533,13 +1533,13 @@ body{
     position: absolute;
     height: 107%;
     width: 103%;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
     border-radius: inherit;
     transition: all 0.6s ease;
     z-index: -1;
 }
 .section_4 > .wrapper > .card_wrapper  > .card .btn a:hover{
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
 
 }
 
@@ -1573,7 +1573,7 @@ body{
     height: 30px;
     width: 30px;
     text-align: center;
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-weight: 600;
     font-size: 15px;
     border: 2px solid var(--secondary-text);
@@ -1588,7 +1588,7 @@ body{
     /* width: 22vw; */
     width: 80%;
     height: 1.5px ;
-    /* background: linear-gradient(135deg, #6e591a, #B68E2E); */
+    /* background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc); */
     background: var(--secondary-text);
 
 }
@@ -1596,11 +1596,11 @@ body{
 .section_5 > .wrapper > .card .big_text{
     font-size: 22px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
 }
 .section_5 > .wrapper > .card .small_text{
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     font-size: 17px;
     letter-spacing: 0.7px;
     padding-inline-end: 30px;
@@ -1628,7 +1628,7 @@ body{
 .section_6 > header .head_text{
     font-size: 32px;
     color: var(--text-color);
-    font-family: 'MTN Brighter Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     text-transform: uppercase;
     margin-block-end: 10px;
 }
@@ -1636,7 +1636,7 @@ body{
 .section_6 > header .dash{
     width: 60px;
     height: 3px;
-    background: linear-gradient(135deg, #D4AF37, #8f7028, #6e591a);
+    background: linear-gradient(135deg, #f7f7f7, #c2c2c2, #cccccc);
 
 
 }

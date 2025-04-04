@@ -267,15 +267,15 @@ window.smartsupp||(function(d) {
                                         left: 0;
                                         height: 24px;
                                         width: 24px;
-                                        background-color: #6e591a;
+                                        background-color: #cccccc;
                                         border: 2px solid ;
                                         border-radius: 6px;
                                         transition: all 0.2s ease;
                                     }
 
                                     .custom-checkbox input:checked ~ .checkmark {
-                                        background-color:  #B68E2E;
-                                        border-color: #6e591a;
+                                        background-color:  #cccccc;
+                                        border-color: #cccccc;
                                     }
 
                                     .checkmark:after {
@@ -298,12 +298,12 @@ window.smartsupp||(function(d) {
                                     .terms-text {
                                         font-size: 1rem;
                                         line-height: 1.5;
-                                        color: #6e591a;
+                                        color: #cccccc;
                                     }
 
                                     .terms-link {
                                         
-                                        color: #B68E2E;
+                                        color: #cccccc;
                                         text-decoration: none;
                                         font-weight: 500;
                                         position: relative;
@@ -311,7 +311,7 @@ window.smartsupp||(function(d) {
                                     }
 
                                     .terms-link:hover {
-                                        color: #6e591a;
+                                        color: #cccccc;
                                     }
 
                                     .terms-link::after {
