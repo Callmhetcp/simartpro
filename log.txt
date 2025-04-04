@@ -1,0 +1,1410 @@
+Crypto ID, Address, and Network are required.Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully![2025-01-28 05:00:02] Investment 49 completed. Total earnings: 321.03
+[2025-01-28 05:00:02] User 274946's balance updated. New balance: 101321.03
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-01-28 09:54:53] - Request received: user_id = 596075, crypto_id = 7
+[2025-01-28 09:54:53] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-01-28 09:54:54] - Request received: user_id = 596075, crypto_symbol = USDT
+[2025-01-28 09:54:54] - Available balance for crypto_symbol (USDT): 0
+[2025-01-28 09:54:54] - Response sent: success = true, available_balance = 0
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-01-28 17:00:02] Investment 50 completed. Total earnings: 321.03
+[2025-01-28 17:00:02] User 274946's balance updated. New balance: 103642.06
+[2025-01-28 17:00:02] Transaction added successfully. Transaction ID: txn_67990d12bcc82, User ID: 274946, Amount: 2321.03, Crypto Symbol: USDT
+[2025-01-28 17:00:03] Investment completion email sent to support@simartpro.com for Transaction ID: txn_67990d12bcc82
+[2025-01-28 17:00:03] Investment completion notification sent to User ID: 274946
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-01-29 05:00:02] Investment 51 completed. Total earnings: 361.03
+[2025-01-29 05:00:02] User 810175's balance updated. New balance: 18061.03
+[2025-01-29 05:00:02] Transaction added successfully. Transaction ID: txn_6799b5d231758, User ID: 810175, Amount: 2361.03, Crypto Symbol: USDT
+[2025-01-29 05:00:02] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_6799b5d231758
+[2025-01-29 05:00:02] Investment completion notification sent to User ID: 810175
+[2025-01-29 10:39:52] - Request received: user_id = 274946, crypto_id = 7
+[2025-01-29 10:39:52] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-01-29 10:39:52] - Request received: user_id = 274946, crypto_symbol = USDT
+[2025-01-29 10:39:52] - Available balance for crypto_symbol (USDT): 97321.03
+[2025-01-29 10:39:52] - Response sent: success = true, available_balance = 97321.03
+[2025-01-29 10:39:53] Received request for investment plan with plan_id: 12
+[2025-01-29 10:39:53] Investment plan found. Plan details: {"id":12,"crypto_id":7,"name":"USDT Trial plan","roi":"2.00","roi_max":"2.00","minimum":"300.00","maximum":"2999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitor Profits Daily","created_at":"2025-01-11 11:08:37","updated_at":"2025-01-11 11:08:37"}
+[2025-01-29 10:39:53] Raw input: {"crypto_id":7,"plan_id":12,"investment_amount":"300.00"}
+[2025-01-29 10:39:53] Received investment request. User ID: 274946, Crypto ID: 7, Plan ID: 12, Investment Amount: 300
+[2025-01-29 10:39:53] Crypto symbol found: USDT for crypto_id: 7
+[2025-01-29 10:39:53] User 274946's balance updated. New balance: 103342.06
+[2025-01-29 10:39:53] Investment added successfully for User ID: 274946
+[2025-01-29 10:39:53] Transaction added successfully. Transaction ID: txn_679a057963c40, User ID: 274946, Amount: 300
+[2025-01-29 10:39:53] Investment email notification sent to support@simartpro.com for Transaction ID: txn_679a057963c40
+[2025-01-29 10:39:53] Investment notification inserted for User ID: 274946
+[2025-01-29 17:00:01] Investment 52 completed. Total earnings: 180.51
+[2025-01-29 17:00:01] User 810175's balance updated. New balance: 19241.54
+[2025-01-29 17:00:01] Transaction added successfully. Transaction ID: txn_679a5e91db658, User ID: 810175, Amount: 1180.51, Crypto Symbol: USDT
+[2025-01-29 17:00:02] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_679a5e91db658
+[2025-01-29 17:00:02] Investment completion notification sent to User ID: 810175
+[2025-01-30 05:00:02] Investment 53 completed. Total earnings: 200.51
+[2025-01-30 05:00:02] User 810175's balance updated. New balance: 20442.05
+[2025-01-30 05:00:02] Transaction added successfully. Transaction ID: txn_679b0752036a7, User ID: 810175, Amount: 1200.51, Crypto Symbol: USDT
+[2025-01-30 05:00:02] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_679b0752036a7
+[2025-01-30 05:00:02] Investment completion notification sent to User ID: 810175
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 7
+    [plan_id] => 15
+    [name] => USDT Gold Minning
+    [roi] => 10.00
+    [roi_max] => 10.00
+    [minimum] => 10000.00
+    [maximum] => 500000.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 7
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring Profits Daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+[2025-01-30 11:43:17] - Request received: user_id = 274946, crypto_id = 7
+[2025-01-30 11:43:17] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-01-30 11:43:17] - Request received: user_id = 274946, crypto_symbol = USDT
+[2025-01-30 11:43:17] - Available balance for crypto_symbol (USDT): 97021.03
+[2025-01-30 11:43:17] - Response sent: success = true, available_balance = 97021.03
+[2025-01-30 11:43:18] Received request for investment plan with plan_id: 14
+[2025-01-30 11:43:18] Investment plan found. Plan details: {"id":14,"crypto_id":7,"name":"USDT Silver Minning","roi":"5.00","roi_max":"5.00","minimum":"5000.00","maximum":"9999.00","earning_duration":"1440","duration_timeframe":"4","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:13:08","updated_at":"2025-01-11 11:13:08"}
+[2025-01-30 11:43:18] Raw input: {"crypto_id":7,"plan_id":14,"investment_amount":"5000.00"}
+[2025-01-30 11:43:18] Received investment request. User ID: 274946, Crypto ID: 7, Plan ID: 14, Investment Amount: 5000
+[2025-01-30 11:43:18] Crypto symbol found: USDT for crypto_id: 7
+[2025-01-30 11:43:18] User 274946's balance updated. New balance: 98342.06
+[2025-01-30 11:43:18] Investment added successfully for User ID: 274946
+[2025-01-30 11:43:18] Transaction added successfully. Transaction ID: txn_679b65d69106a, User ID: 274946, Amount: 5000
+[2025-01-30 11:43:18] Investment email notification sent to support@simartpro.com for Transaction ID: txn_679b65d69106a
+[2025-01-30 11:43:18] Investment notification inserted for User ID: 274946
+Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully![2025-01-30 17:00:04] Investment 54 completed. Total earnings: 100.25
+[2025-01-30 17:00:04] User 810175's balance updated. New balance: 21042.3
+[2025-01-30 17:00:04] Transaction added successfully. Transaction ID: txn_679bb0142db79, User ID: 810175, Amount: 600.25, Crypto Symbol: USDT
+[2025-01-30 17:00:04] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_679bb0142db79
+[2025-01-30 17:00:04] Investment completion notification sent to User ID: 810175
+[2025-01-31 05:00:12] Investment 55 completed. Total earnings: 66.15
+[2025-01-31 05:00:12] User 810175's balance updated. New balance: 22408.45
+[2025-01-31 05:00:12] Transaction added successfully. Transaction ID: txn_679c58dc335e1, User ID: 810175, Amount: 366.15, Crypto Symbol: USDT
+[2025-01-31 05:00:12] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_679c58dc335e1
+[2025-01-31 05:00:12] Investment completion notification sent to User ID: 810175
+[2025-01-31 17:00:04] Investment 56 completed. Total earnings: 66.15
+[2025-01-31 17:00:04] User 810175's balance updated. New balance: 22774.6
+[2025-01-31 17:00:04] Transaction added successfully. Transaction ID: txn_679d01948e477, User ID: 810175, Amount: 366.15, Crypto Symbol: USDT
+[2025-01-31 17:00:05] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_679d01948e477
+[2025-01-31 17:00:05] Investment completion notification sent to User ID: 810175
+[2025-02-01 05:00:03] Investment 57 completed. Total earnings: 481.03
+[2025-02-01 05:00:03] User 274946's balance updated. New balance: 100823.09
+[2025-02-01 05:00:03] Transaction added successfully. Transaction ID: txn_679daa536c8c1, User ID: 274946, Amount: 2481.03, Crypto Symbol: USDT
+[2025-02-01 05:00:03] Investment completion email sent to support@simartpro.com for Transaction ID: txn_679daa536c8c1
+[2025-02-01 05:00:03] Investment completion notification sent to User ID: 274946
+[2025-02-01 17:00:03] Investment 58 completed. Total earnings: 72.15
+[2025-02-01 17:00:03] User 810175's balance updated. New balance: 23146.75
+[2025-02-01 17:00:03] Transaction added successfully. Transaction ID: txn_679e5313e494b, User ID: 810175, Amount: 372.15, Crypto Symbol: USDT
+[2025-02-01 17:00:04] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_679e5313e494b
+[2025-02-01 17:00:04] Investment completion notification sent to User ID: 810175
+[2025-02-01 17:10:13] - Request received: user_id = 810175, crypto_id = 7
+[2025-02-01 17:10:13] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-02-01 17:10:13] - Request received: user_id = 810175, crypto_symbol = USDT
+[2025-02-01 17:10:13] - Available balance for crypto_symbol (USDT): 21546.75
+[2025-02-01 17:10:13] - Response sent: success = true, available_balance = 21546.75
+[2025-02-01 17:10:13] Received request for investment plan with plan_id: 13
+[2025-02-01 17:10:13] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"3.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-01-11 11:10:45"}
+[2025-02-01 17:10:14] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"3000.00"}
+[2025-02-01 17:10:14] Received investment request. User ID: 810175, Crypto ID: 7, Plan ID: 13, Investment Amount: 3000
+[2025-02-01 17:10:14] Crypto symbol found: USDT for crypto_id: 7
+[2025-02-01 17:10:14] User 810175's balance updated. New balance: 20146.75
+[2025-02-01 17:10:14] Investment added successfully for User ID: 810175
+[2025-02-01 17:10:14] Transaction added successfully. Transaction ID: txn_679e557646110, User ID: 810175, Amount: 3000
+[2025-02-01 17:10:14] Investment email notification sent to dannywiz480@gmail.com for Transaction ID: txn_679e557646110
+[2025-02-01 17:10:14] Investment notification inserted for User ID: 810175
+[2025-02-02 05:00:03] Investment 59 completed. Total earnings: 130.25
+[2025-02-02 05:00:04] User 810175's balance updated. New balance: 20777
+[2025-02-02 05:00:04] Transaction added successfully. Transaction ID: txn_679efbd405300, User ID: 810175, Amount: 630.25, Crypto Symbol: USDT
+[2025-02-02 05:00:04] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_679efbd405300
+[2025-02-02 05:00:04] Investment completion notification sent to User ID: 810175
+[2025-02-02 17:00:04] Investment 60 completed. Total earnings: 130.25
+[2025-02-02 17:00:05] User 810175's balance updated. New balance: 21407.25
+[2025-02-02 17:00:05] Transaction added successfully. Transaction ID: txn_679fa49504407, User ID: 810175, Amount: 630.25, Crypto Symbol: USDT
+[2025-02-02 17:00:05] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_679fa49504407
+[2025-02-02 17:00:06] Investment completion notification sent to User ID: 810175
+[2025-02-03 05:00:04] Investment 61 completed. Total earnings: 140.25
+[2025-02-03 05:00:04] User 810175's balance updated. New balance: 22047.5
+[2025-02-03 05:00:04] Transaction added successfully. Transaction ID: txn_67a04d5412409, User ID: 810175, Amount: 640.25, Crypto Symbol: USDT
+[2025-02-03 05:00:04] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_67a04d5412409
+[2025-02-03 05:00:04] Investment completion notification sent to User ID: 810175
+[2025-02-03 17:00:03] Investment 62 completed. Total earnings: 140.25
+[2025-02-03 17:00:03] User 810175's balance updated. New balance: 22687.75
+[2025-02-03 17:00:03] Transaction added successfully. Transaction ID: txn_67a0f613e0e02, User ID: 810175, Amount: 640.25, Crypto Symbol: USDT
+[2025-02-03 17:00:04] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_67a0f613e0e02
+[2025-02-03 17:00:04] Investment completion notification sent to User ID: 810175
+[2025-02-04 05:00:03] Investment 63 completed. Total earnings: 30
+[2025-02-04 05:00:03] User 274946's balance updated. New balance: 101153.09
+[2025-02-04 05:00:03] Transaction added successfully. Transaction ID: txn_67a19ed3ad695, User ID: 274946, Amount: 330, Crypto Symbol: USDT
+[2025-02-04 05:00:04] Investment completion email sent to support@simartpro.com for Transaction ID: txn_67a19ed3ad695
+[2025-02-04 05:00:04] Investment completion notification sent to User ID: 274946
+[2025-02-04 17:00:02] Investment 64 completed. Total earnings: 1250
+[2025-02-04 17:00:02] User 274946's balance updated. New balance: 107403.09
+[2025-02-04 17:00:02] Transaction added successfully. Transaction ID: txn_67a24792eddb3, User ID: 274946, Amount: 6250, Crypto Symbol: USDT
+[2025-02-04 17:00:03] Investment completion email sent to support@simartpro.com for Transaction ID: txn_67a24792eddb3
+[2025-02-04 17:00:03] Investment completion notification sent to User ID: 274946
+[2025-02-05 05:00:15] Investment 65 completed. Total earnings: 270
+[2025-02-05 05:00:15] User 810175's balance updated. New balance: 25957.75
+[2025-02-05 05:00:15] Transaction added successfully. Transaction ID: txn_67a2f05fde657, User ID: 810175, Amount: 3270, Crypto Symbol: USDT
+[2025-02-05 05:00:16] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_67a2f05fde657
+[2025-02-05 05:00:16] Investment completion notification sent to User ID: 810175
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 1
+    [plan_id] => 2
+    [name] => BTC Trial Mining
+    [roi] => 2.00
+    [roi_max] => 5.00
+    [minimum] => 500
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 6
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] =>  Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 1
+    [plan_id] => 2
+    [name] => BTC Trial Mining
+    [roi] => 2.00
+    [roi_max] => 5.00
+    [minimum] => 1000
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 6
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] =>  Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-03-09 13:47:40] - Request received: user_id = 810175, crypto_id = 7
+[2025-03-09 13:47:40] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-09 13:47:42] - Request received: user_id = 810175, crypto_symbol = USDT
+[2025-03-09 13:47:42] - Available balance for crypto_symbol (USDT): 24357.75
+[2025-03-09 13:47:42] - Response sent: success = true, available_balance = 24357.75
+[2025-03-09 13:47:42] Received request for investment plan with plan_id: 12
+[2025-03-09 13:47:42] Investment plan found. Plan details: {"id":12,"crypto_id":7,"name":"USDT Trial plan","roi":"2.00","roi_max":"2.00","minimum":"300.00","maximum":"2999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitor Profits Daily","created_at":"2025-01-11 11:08:37","updated_at":"2025-01-11 11:08:37"}
+[2025-03-09 13:47:42] Raw input: {"crypto_id":7,"plan_id":12,"investment_amount":"3000.00"}
+[2025-03-09 13:47:42] Received investment request. User ID: 810175, Crypto ID: 7, Plan ID: 12, Investment Amount: 3000
+[2025-03-09 13:47:42] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-09 13:47:42] Investment validation failed. Amount not within range.
+[2025-03-09 13:47:57] - Request received: user_id = 810175, crypto_id = 7
+[2025-03-09 13:47:57] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-09 13:47:58] - Request received: user_id = 810175, crypto_symbol = USDT
+[2025-03-09 13:47:58] - Available balance for crypto_symbol (USDT): 24357.75
+[2025-03-09 13:47:58] - Response sent: success = true, available_balance = 24357.75
+[2025-03-09 13:47:58] Received request for investment plan with plan_id: 13
+[2025-03-09 13:47:58] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"3.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-01-11 11:10:45"}
+[2025-03-09 13:47:58] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"500.00"}
+[2025-03-09 13:47:58] Received investment request. User ID: 810175, Crypto ID: 7, Plan ID: 13, Investment Amount: 500
+[2025-03-09 13:47:58] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-09 13:47:58] Investment validation failed. Amount not within range.
+Wallet info updated successfully!Wallet info updated successfully!Wallet info updated successfully!Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":false,"message":"Invalid request or session email not set."}[2025-03-18 09:00:04] - Request received: user_id = 763830, crypto_id = 7
+[2025-03-18 09:00:04] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-18 09:00:04] - Request received: user_id = 763830, crypto_symbol = USDT
+[2025-03-18 09:00:04] - Available balance for crypto_symbol (USDT): 3890
+[2025-03-18 09:00:04] - Response sent: success = true, available_balance = 3890
+[2025-03-18 09:00:04] Received request for investment plan with plan_id: 13
+[2025-03-18 09:00:04] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"3.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-01-11 11:10:45"}
+[2025-03-18 09:00:04] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"3890.00"}
+[2025-03-18 09:00:04] Received investment request. User ID: 763830, Crypto ID: 7, Plan ID: 13, Investment Amount: 3890
+[2025-03-18 09:00:04] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-18 09:00:04] User 763830's balance updated. New balance: 0
+[2025-03-18 09:00:05] Investment added successfully for User ID: 763830
+[2025-03-18 09:00:05] Transaction added successfully. Transaction ID: txn_67d9361501825, User ID: 763830, Amount: 3890
+[2025-03-18 09:00:07] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-18 09:00:07] Investment notification inserted for User ID: 763830
+[2025-03-18 16:00:03] Investment 66: Not enough time has elapsed for earnings to be added.
+Wallet info updated successfully!Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 7
+    [name] => ETH Trial Mining
+    [roi] => 0.50
+    [roi_max] => 2.00
+    [minimum] => 500
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 3
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 7
+    [name] => ETH Trial Mining
+    [roi] => 2.5
+    [roi_max] => 0
+    [minimum] => 500.00
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 3
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 8
+    [name] => ETH Bronze Mining
+    [roi] => 5
+    [roi_max] => 0
+    [minimum] => 3000.00
+    [maximum] => 4999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 3
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 9
+    [name] => ETH Silver Mining
+    [roi] => 7
+    [roi_max] => 0
+    [minimum] => 5000.00
+    [maximum] => 9999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 4
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 11
+    [name] => ETH Gold Minning
+    [roi] => 10.00
+    [roi_max] => 10.00
+    [minimum] => 15000
+    [maximum] => 500000.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 30
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitor Profits Daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 7
+    [plan_id] => 15
+    [name] => USDT Gold Minning
+    [roi] => 10.00
+    [roi_max] => 10.00
+    [minimum] => 10000.00
+    [maximum] => 500000.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 30
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring Profits Daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 7
+    [plan_id] => 12
+    [name] => USDT Trial plan
+    [roi] => 2.5
+    [roi_max] => 2.00
+    [minimum] => 300.00
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 3
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitor Profits Daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 7
+    [plan_id] => 13
+    [name] => USDT Bronze Minning
+    [roi] => 5
+    [roi_max] => 3.00
+    [minimum] => 3000.00
+    [maximum] => 4999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 3
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring Profits Daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 7
+    [plan_id] => 14
+    [name] => USDT Silver Minning
+    [roi] => 7
+    [roi_max] => 5.00
+    [minimum] => 5000.00
+    [maximum] => 9999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 4
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring Profits Daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 7
+    [plan_id] => 15
+    [name] => USDT Gold Minning
+    [roi] => 10.00
+    [roi_max] => 10.00
+    [minimum] => 10000
+    [maximum] => 500000.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 30
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring Profits Daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+[2025-03-18 20:43:58] - Request received: user_id = 274946, crypto_id = 7
+[2025-03-18 20:43:58] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-18 20:43:58] - Request received: user_id = 274946, crypto_symbol = USDT
+[2025-03-18 20:43:58] - Available balance for crypto_symbol (USDT): 101082.06
+[2025-03-18 20:43:58] - Response sent: success = true, available_balance = 101082.06
+[2025-03-18 20:43:59] Received request for investment plan with plan_id: 12
+[2025-03-18 20:43:59] Investment plan found. Plan details: {"id":12,"crypto_id":7,"name":"USDT Trial plan","roi":"2.50","roi_max":"2.00","minimum":"300.00","maximum":"2999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitor Profits Daily","created_at":"2025-01-11 11:08:37","updated_at":"2025-03-18 16:19:45"}
+[2025-03-18 20:43:59] Raw input: {"crypto_id":7,"plan_id":12,"investment_amount":"300.00"}
+[2025-03-18 20:43:59] Received investment request. User ID: 274946, Crypto ID: 7, Plan ID: 12, Investment Amount: 300
+[2025-03-18 20:43:59] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-18 20:43:59] User 274946's balance updated. New balance: 107103.09
+[2025-03-18 20:43:59] Investment added successfully for User ID: 274946
+[2025-03-18 20:43:59] Transaction added successfully. Transaction ID: txn_67d9db0fda35e, User ID: 274946, Amount: 300
+[2025-03-18 20:44:02] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-18 20:44:02] Investment notification inserted for User ID: 274946
+[2025-03-18 20:48:09] - Request received: user_id = 274946, crypto_id = 2
+[2025-03-18 20:48:09] - Success: Crypto symbol found: ETH for crypto_id = 2.
+[2025-03-18 20:48:10] - Request received: user_id = 274946, crypto_symbol = ETH
+[2025-03-18 20:48:10] - Available balance for crypto_symbol (ETH): 1000
+[2025-03-18 20:48:10] - Response sent: success = true, available_balance = 1000
+[2025-03-18 20:48:10] Received request for investment plan with plan_id: 7
+[2025-03-18 20:48:10] Investment plan found. Plan details: {"id":7,"crypto_id":2,"name":"ETH Trial Mining","roi":"2.50","roi_max":"0.00","minimum":"500.00","maximum":"2999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring profits daily","created_at":"2025-01-11 10:56:28","updated_at":"2025-03-18 16:16:31"}
+[2025-03-18 20:48:10] Raw input: {"crypto_id":2,"plan_id":7,"investment_amount":"550.00"}
+[2025-03-18 20:48:10] Received investment request. User ID: 274946, Crypto ID: 2, Plan ID: 7, Investment Amount: 550
+[2025-03-18 20:48:10] Crypto symbol found: ETH for crypto_id: 2
+[2025-03-18 20:48:10] User 274946's balance updated. New balance: 107553.09
+[2025-03-18 20:48:10] Investment added successfully for User ID: 274946
+[2025-03-18 20:48:10] Transaction added successfully. Transaction ID: txn_67d9dc0ac5791, User ID: 274946, Amount: 550
+[2025-03-18 20:48:12] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-18 20:48:12] Investment notification inserted for User ID: 274946
+[2025-03-18 20:48:19] - Request received: user_id = 667866, crypto_id = 2
+[2025-03-18 20:48:19] - Success: Crypto symbol found: ETH for crypto_id = 2.
+[2025-03-18 20:48:19] - Request received: user_id = 667866, crypto_symbol = ETH
+[2025-03-18 20:48:19] - Available balance for crypto_symbol (ETH): 1050
+[2025-03-18 20:48:19] - Response sent: success = true, available_balance = 1050
+[2025-03-18 20:48:19] Received request for investment plan with plan_id: 7
+[2025-03-18 20:48:19] Investment plan found. Plan details: {"id":7,"crypto_id":2,"name":"ETH Trial Mining","roi":"2.50","roi_max":"0.00","minimum":"500.00","maximum":"2999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring profits daily","created_at":"2025-01-11 10:56:28","updated_at":"2025-03-18 16:16:31"}
+[2025-03-18 20:48:19] Raw input: {"crypto_id":2,"plan_id":7,"investment_amount":"1050.00"}
+[2025-03-18 20:48:19] Received investment request. User ID: 667866, Crypto ID: 2, Plan ID: 7, Investment Amount: 1050
+[2025-03-18 20:48:19] Crypto symbol found: ETH for crypto_id: 2
+[2025-03-18 20:48:19] User 667866's balance updated. New balance: 0
+[2025-03-18 20:48:19] Investment added successfully for User ID: 667866
+[2025-03-18 20:48:19] Transaction added successfully. Transaction ID: txn_67d9dc13d4fc1, User ID: 667866, Amount: 1050
+[2025-03-18 20:48:25] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-18 20:48:25] Investment notification inserted for User ID: 667866
+[2025-03-19 04:00:04] Investment 66: Not enough time has elapsed for earnings to be added.
+[2025-03-19 04:00:04] Investment 67: Not enough time has elapsed for earnings to be added.
+[2025-03-19 04:00:04] Investment 68: Not enough time has elapsed for earnings to be added.
+[2025-03-19 04:00:04] Investment 69: Not enough time has elapsed for earnings to be added.
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-03-19 16:00:04] Investment 66 updated. Incremental earnings added: 194.5, Total earnings: 194.5
+[2025-03-19 16:00:04] Investment 67: Not enough time has elapsed for earnings to be added.
+[2025-03-19 16:00:04] Investment 68: Not enough time has elapsed for earnings to be added.
+[2025-03-19 16:00:04] Investment 69: Not enough time has elapsed for earnings to be added.
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":false,"message":"Invalid request or session email not set."}[2025-03-19 20:33:38] - Request received: user_id = 280207, crypto_id = 7
+[2025-03-19 20:33:38] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-19 20:33:38] - Request received: user_id = 280207, crypto_symbol = USDT
+[2025-03-19 20:33:38] - Available balance for crypto_symbol (USDT): 50500
+[2025-03-19 20:33:38] - Response sent: success = true, available_balance = 50500
+[2025-03-19 20:33:38] Received request for investment plan with plan_id: 13
+[2025-03-19 20:33:38] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-19 20:33:39] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4585.00"}
+[2025-03-19 20:33:39] Received investment request. User ID: 280207, Crypto ID: 7, Plan ID: 13, Investment Amount: 4585
+[2025-03-19 20:33:39] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-19 20:33:39] User 280207's balance updated. New balance: 45915
+[2025-03-19 20:33:39] Investment added successfully for User ID: 280207
+[2025-03-19 20:33:39] Transaction added successfully. Transaction ID: txn_67db2a232f19d, User ID: 280207, Amount: 4585
+[2025-03-19 20:33:41] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-19 20:33:41] Investment notification inserted for User ID: 280207
+[2025-03-20 04:00:03] Investment 66: Not enough time has elapsed for earnings to be added.
+[2025-03-20 04:00:03] Investment 67 updated. Incremental earnings added: 7.5, Total earnings: 7.5
+[2025-03-20 04:00:03] Investment 68 updated. Incremental earnings added: 13.75, Total earnings: 13.75
+[2025-03-20 04:00:03] Investment 69 updated. Incremental earnings added: 26.25, Total earnings: 26.25
+[2025-03-20 04:00:03] Investment 70: Not enough time has elapsed for earnings to be added.
+Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":false,"message":"Invalid request or session email not set."}[2025-03-20 16:00:02] Investment 66: Not enough time has elapsed for earnings to be added.
+[2025-03-20 16:00:02] Investment 67: Not enough time has elapsed for earnings to be added.
+[2025-03-20 16:00:02] Investment 68: Not enough time has elapsed for earnings to be added.
+[2025-03-20 16:00:02] Investment 69: Not enough time has elapsed for earnings to be added.
+[2025-03-20 16:00:02] Investment 70: Not enough time has elapsed for earnings to be added.
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 1
+    [plan_id] => 2
+    [name] => BTC Trial Mining
+    [roi] => 5
+    [roi_max] => 5.00
+    [minimum] => 1000.00
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 30
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] =>  Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-03-20 20:38:30] - Request received: user_id = 996970, crypto_id = 7
+[2025-03-20 20:38:30] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-20 20:38:30] - Request received: user_id = 996970, crypto_symbol = USDT
+[2025-03-20 20:38:30] - Available balance for crypto_symbol (USDT): 40000
+[2025-03-20 20:38:30] - Response sent: success = true, available_balance = 40000
+[2025-03-20 20:38:30] Received request for investment plan with plan_id: 14
+[2025-03-20 20:38:30] Investment plan found. Plan details: {"id":14,"crypto_id":7,"name":"USDT Silver Minning","roi":"7.00","roi_max":"5.00","minimum":"5000.00","maximum":"9999.00","earning_duration":"1440","duration_timeframe":"4","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:13:08","updated_at":"2025-03-18 16:20:29"}
+[2025-03-20 20:38:31] Raw input: {"crypto_id":7,"plan_id":14,"investment_amount":"6000.00"}
+[2025-03-20 20:38:31] Received investment request. User ID: 996970, Crypto ID: 7, Plan ID: 14, Investment Amount: 6000
+[2025-03-20 20:38:31] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-20 20:38:31] User 996970's balance updated. New balance: 34000
+[2025-03-20 20:38:31] Investment added successfully for User ID: 996970
+[2025-03-20 20:38:31] Transaction added successfully. Transaction ID: txn_67dc7cc718d6f, User ID: 996970, Amount: 6000
+[2025-03-20 20:38:33] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-20 20:38:33] Investment notification inserted for User ID: 996970
+[2025-03-21 04:00:04] Investment 66 completed. Total earnings: 389
+[2025-03-21 04:00:04] User 763830's balance updated. New balance: 4279
+[2025-03-21 04:00:04] Transaction added successfully. Transaction ID: txn_67dce4448af5c, User ID: 763830, Amount: 4279, Crypto Symbol: USDT
+[2025-03-21 04:00:04] Investment completion email sent to rgt241@gmail.com for Transaction ID: txn_67dce4448af5c
+[2025-03-21 04:00:04] Investment completion notification sent to User ID: 763830
+[2025-03-21 09:42:05] - Request received: user_id = 763830, crypto_id = 7
+[2025-03-21 09:42:05] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-21 09:42:05] - Request received: user_id = 763830, crypto_symbol = USDT
+[2025-03-21 09:42:05] - Available balance for crypto_symbol (USDT): 4279
+[2025-03-21 09:42:05] - Response sent: success = true, available_balance = 4279
+[2025-03-21 09:42:06] Received request for investment plan with plan_id: 13
+[2025-03-21 09:42:06] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-21 09:42:06] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4279.00"}
+[2025-03-21 09:42:06] Received investment request. User ID: 763830, Crypto ID: 7, Plan ID: 13, Investment Amount: 4279
+[2025-03-21 09:42:06] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-21 09:42:06] User 763830's balance updated. New balance: 0
+[2025-03-21 09:42:06] Investment added successfully for User ID: 763830
+[2025-03-21 09:42:06] Transaction added successfully. Transaction ID: txn_67dd346e99b0a, User ID: 763830, Amount: 4279
+[2025-03-21 09:42:08] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-21 09:42:08] Investment notification inserted for User ID: 763830
+Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-03-21 16:00:02] Investment 67 completed. Total earnings: 15
+[2025-03-21 16:00:02] User 274946's balance updated. New balance: 107868.09
+[2025-03-21 16:00:02] Transaction added successfully. Transaction ID: txn_67dd8d02eba55, User ID: 274946, Amount: 315, Crypto Symbol: USDT
+[2025-03-21 16:00:03] Investment completion email sent to support@simartpro.com for Transaction ID: txn_67dd8d02eba55
+[2025-03-21 16:00:03] Investment completion notification sent to User ID: 274946
+[2025-03-22 01:26:38] - Request received: user_id = 280207, crypto_id = 7
+[2025-03-22 01:26:38] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-22 01:26:39] - Request received: user_id = 280207, crypto_symbol = USDT
+[2025-03-22 01:26:39] - Available balance for crypto_symbol (USDT): 45915
+[2025-03-22 01:26:39] - Response sent: success = true, available_balance = 45915
+[2025-03-22 01:26:39] Received request for investment plan with plan_id: 13
+[2025-03-22 01:26:39] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-22 01:26:39] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4585.00"}
+[2025-03-22 01:26:39] Received investment request. User ID: 280207, Crypto ID: 7, Plan ID: 13, Investment Amount: 4585
+[2025-03-22 01:26:39] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-22 01:26:39] User 280207's balance updated. New balance: 41330
+[2025-03-22 01:26:39] Investment added successfully for User ID: 280207
+[2025-03-22 01:26:39] Transaction added successfully. Transaction ID: txn_67de11cf8d0d0, User ID: 280207, Amount: 4585
+[2025-03-22 01:26:41] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-22 01:26:41] Investment notification inserted for User ID: 280207
+[2025-03-22 04:00:04] Investment 68 completed. Total earnings: 41.25
+[2025-03-22 04:00:04] User 274946's balance updated. New balance: 108459.34
+[2025-03-22 04:00:04] Transaction added successfully. Transaction ID: txn_67de35c44e2ba, User ID: 274946, Amount: 591.25, Crypto Symbol: ETH
+[2025-03-22 04:00:04] Investment completion email sent to support@simartpro.com for Transaction ID: txn_67de35c44e2ba
+[2025-03-22 04:00:04] Investment completion notification sent to User ID: 274946
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 7
+    [name] => ETH Trial Mining
+    [roi] => 2.5
+    [roi_max] => 2.5
+    [minimum] => 500.00
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 3
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+[2025-03-22 09:48:31] - Request received: user_id = 274946, crypto_id = 7
+[2025-03-22 09:48:31] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-22 09:48:32] - Request received: user_id = 274946, crypto_symbol = USDT
+[2025-03-22 09:48:32] - Available balance for crypto_symbol (USDT): 101097.06
+[2025-03-22 09:48:32] - Response sent: success = true, available_balance = 101097.06
+[2025-03-22 09:48:32] Received request for investment plan with plan_id: 14
+[2025-03-22 09:48:32] Investment plan found. Plan details: {"id":14,"crypto_id":7,"name":"USDT Silver Minning","roi":"7.00","roi_max":"5.00","minimum":"5000.00","maximum":"9999.00","earning_duration":"1440","duration_timeframe":"4","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:13:08","updated_at":"2025-03-18 16:20:29"}
+[2025-03-22 09:48:33] Raw input: {"crypto_id":7,"plan_id":14,"investment_amount":"5000.00"}
+[2025-03-22 09:48:33] Received investment request. User ID: 274946, Crypto ID: 7, Plan ID: 14, Investment Amount: 5000
+[2025-03-22 09:48:33] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-22 09:48:33] User 274946's balance updated. New balance: 103459.34
+[2025-03-22 09:48:33] Investment added successfully for User ID: 274946
+[2025-03-22 09:48:33] Transaction added successfully. Transaction ID: txn_67de877133670, User ID: 274946, Amount: 5000
+[2025-03-22 09:48:35] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-22 09:48:35] Investment notification inserted for User ID: 274946
+[2025-03-22 09:51:53] - Request received: user_id = 274946, crypto_id = 2
+[2025-03-22 09:51:53] - Success: Crypto symbol found: ETH for crypto_id = 2.
+[2025-03-22 09:51:53] - Request received: user_id = 274946, crypto_symbol = ETH
+[2025-03-22 09:51:53] - Available balance for crypto_symbol (ETH): 11041.25
+[2025-03-22 09:51:53] - Response sent: success = true, available_balance = 11041.25
+[2025-03-22 09:51:54] Received request for investment plan with plan_id: 9
+[2025-03-22 09:51:54] Investment plan found. Plan details: {"id":9,"crypto_id":2,"name":"ETH Silver Mining","roi":"7.00","roi_max":"0.00","minimum":"5000.00","maximum":"9999.00","earning_duration":"1440","duration_timeframe":"4","duration":"1440","commission":"5.00","benefit":"Monitoring profits daily","created_at":"2025-01-11 11:02:25","updated_at":"2025-03-18 16:17:39"}
+[2025-03-22 09:51:54] Raw input: {"crypto_id":2,"plan_id":9,"investment_amount":"5000.00"}
+[2025-03-22 09:51:54] Received investment request. User ID: 274946, Crypto ID: 2, Plan ID: 9, Investment Amount: 5000
+[2025-03-22 09:51:54] Crypto symbol found: ETH for crypto_id: 2
+[2025-03-22 09:51:54] User 274946's balance updated. New balance: 108459.34
+[2025-03-22 09:51:54] Investment added successfully for User ID: 274946
+[2025-03-22 09:51:54] Transaction added successfully. Transaction ID: txn_67de883a7591d, User ID: 274946, Amount: 5000
+[2025-03-22 09:51:56] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-22 09:51:56] Investment notification inserted for User ID: 274946
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 9
+    [name] => ETH Silver Mining
+    [roi] => 7.00
+    [roi_max] => 0.00
+    [minimum] => 5000.00
+    [maximum] => 9999.00
+    [earning_duration] => 60
+    [duration_timeframe] => 4
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 9
+    [name] => ETH Silver Mining
+    [roi] => 7.00
+    [roi_max] => 0.00
+    [minimum] => 5000.00
+    [maximum] => 9999.00
+    [earning_duration] => 60
+    [duration_timeframe] => 4
+    [duration] => 60
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+[2025-03-22 12:42:32] - Request received: user_id = 274946, crypto_id = 2
+[2025-03-22 12:42:32] - Success: Crypto symbol found: ETH for crypto_id = 2.
+[2025-03-22 12:42:33] - Request received: user_id = 274946, crypto_symbol = ETH
+[2025-03-22 12:42:33] - Available balance for crypto_symbol (ETH): 6041.25
+[2025-03-22 12:42:33] - Response sent: success = true, available_balance = 6041.25
+[2025-03-22 12:42:33] Received request for investment plan with plan_id: 9
+[2025-03-22 12:42:33] Investment plan found. Plan details: {"id":9,"crypto_id":2,"name":"ETH Silver Mining","roi":"7.00","roi_max":"0.00","minimum":"5000.00","maximum":"9999.00","earning_duration":"60","duration_timeframe":"4","duration":"60","commission":"5.00","benefit":"Monitoring profits daily","created_at":"2025-01-11 11:02:25","updated_at":"2025-03-22 08:41:58"}
+[2025-03-22 12:42:33] Raw input: {"crypto_id":2,"plan_id":9,"investment_amount":"5000.00"}
+[2025-03-22 12:42:33] Received investment request. User ID: 274946, Crypto ID: 2, Plan ID: 9, Investment Amount: 5000
+[2025-03-22 12:42:33] Crypto symbol found: ETH for crypto_id: 2
+[2025-03-22 12:42:33] User 274946's balance updated. New balance: 103459.34
+[2025-03-22 12:42:33] Investment added successfully for User ID: 274946
+[2025-03-22 12:42:33] Transaction added successfully. Transaction ID: txn_67deb039d2c0c, User ID: 274946, Amount: 5000
+[2025-03-22 12:42:36] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-22 12:42:36] Investment notification inserted for User ID: 274946
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 7
+    [name] => ETH Trial Mining
+    [roi] => 2.50
+    [roi_max] => 2.50
+    [minimum] => 500.00
+    [maximum] => 2999.00
+    [earning_duration] => 60
+    [duration_timeframe] => 1
+    [duration] => 60
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 7
+    [name] => ETH Trial Mining
+    [roi] => 2.50
+    [roi_max] => 2.50
+    [minimum] => 500.00
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 3
+    [duration] => 60
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 7
+    [name] => ETH Trial Mining
+    [roi] => 2.50
+    [roi_max] => 2.50
+    [minimum] => 500.00
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 3
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 9
+    [name] => ETH Silver Mining
+    [roi] => 7.00
+    [roi_max] => 0.00
+    [minimum] => 5000.00
+    [maximum] => 9999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 4
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 2
+    [plan_id] => 7
+    [name] => ETH Trial Mining
+    [roi] => 2.50
+    [roi_max] => 2.50
+    [minimum] => 500.00
+    [maximum] => 2999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 3
+    [duration] => 1440
+    [commission] => 5.00
+    [benefit] => Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+[2025-03-22 14:25:49] - Request received: user_id = 274946, crypto_id = 7
+[2025-03-22 14:25:49] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-22 14:25:49] - Request received: user_id = 274946, crypto_symbol = USDT
+[2025-03-22 14:25:49] - Available balance for crypto_symbol (USDT): 96097.06
+[2025-03-22 14:25:49] - Response sent: success = true, available_balance = 96097.06
+[2025-03-22 14:25:49] Received request for investment plan with plan_id: 15
+[2025-03-22 14:25:49] Investment plan found. Plan details: {"id":15,"crypto_id":7,"name":"USDT Gold Minning","roi":"10.00","roi_max":"10.00","minimum":"10000.00","maximum":"500000.00","earning_duration":"1440","duration_timeframe":"30","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:15:46","updated_at":"2025-03-18 16:19:21"}
+[2025-03-22 14:25:50] Raw input: {"crypto_id":7,"plan_id":15,"investment_amount":"90000.00"}
+[2025-03-22 14:25:50] Received investment request. User ID: 274946, Crypto ID: 7, Plan ID: 15, Investment Amount: 90000
+[2025-03-22 14:25:50] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-22 14:25:50] User 274946's balance updated. New balance: 13459.34
+[2025-03-22 14:25:50] Investment added successfully for User ID: 274946
+[2025-03-22 14:25:50] Transaction added successfully. Transaction ID: txn_67dec86e46c7d, User ID: 274946, Amount: 90000
+[2025-03-22 14:25:52] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-22 14:25:52] Investment notification inserted for User ID: 274946
+[2025-03-22 16:00:03] Investment 69 completed. Total earnings: 78.75
+[2025-03-22 16:00:03] User 667866's balance updated. New balance: 2257.75
+[2025-03-22 16:00:03] Transaction added successfully. Transaction ID: txn_67dede83cb5d3, User ID: 667866, Amount: 1128.75, Crypto Symbol: ETH
+[2025-03-22 16:00:04] Investment completion email sent to slawek.janota@icloud.com for Transaction ID: txn_67dede83cb5d3
+[2025-03-22 16:00:04] Investment completion notification sent to User ID: 667866
+[2025-03-23 04:00:03] Investment 70 completed. Total earnings: 687.75
+[2025-03-23 04:00:03] User 280207's balance updated. New balance: 46602.75
+[2025-03-23 04:00:03] Transaction added successfully. Transaction ID: txn_67df874385e21, User ID: 280207, Amount: 5272.75, Crypto Symbol: USDT
+[2025-03-23 04:00:04] Investment completion email sent to marcos.side1a11@gmail.com for Transaction ID: txn_67df874385e21
+[2025-03-23 04:00:04] Investment completion notification sent to User ID: 280207
+[2025-03-23 16:00:03] Investment 71 completed. Total earnings: 840
+[2025-03-23 16:00:03] User 996970's balance updated. New balance: 40840
+[2025-03-23 16:00:03] Transaction added successfully. Transaction ID: txn_67e03003d2dd7, User ID: 996970, Amount: 6840, Crypto Symbol: USDT
+[2025-03-23 16:00:04] Investment completion email sent to de33000@gmail.com for Transaction ID: txn_67e03003d2dd7
+[2025-03-23 16:00:04] Investment completion notification sent to User ID: 996970
+[2025-03-23 17:01:31] - Request received: user_id = 996970, crypto_id = 7
+[2025-03-23 17:01:31] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-23 17:01:31] - Request received: user_id = 996970, crypto_symbol = USDT
+[2025-03-23 17:01:31] - Available balance for crypto_symbol (USDT): 40840
+[2025-03-23 17:01:31] - Response sent: success = true, available_balance = 40840
+[2025-03-23 17:01:32] Received request for investment plan with plan_id: 13
+[2025-03-23 17:01:32] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-23 17:01:32] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4000.00"}
+[2025-03-23 17:01:32] Received investment request. User ID: 996970, Crypto ID: 7, Plan ID: 13, Investment Amount: 4000
+[2025-03-23 17:01:32] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-23 17:01:32] User 996970's balance updated. New balance: 36840
+[2025-03-23 17:01:32] Investment added successfully for User ID: 996970
+[2025-03-23 17:01:32] Transaction added successfully. Transaction ID: txn_67e03e6c5fbfc, User ID: 996970, Amount: 4000
+[2025-03-23 17:01:34] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-23 17:01:34] Investment notification inserted for User ID: 996970
+[2025-03-24 04:00:03] Investment 72 completed. Total earnings: 427.9
+[2025-03-24 04:00:03] User 763830's balance updated. New balance: 4706.9
+[2025-03-24 04:00:03] Transaction added successfully. Transaction ID: txn_67e0d8c3ac395, User ID: 763830, Amount: 4706.9, Crypto Symbol: USDT
+[2025-03-24 04:00:04] Investment completion email sent to rgt241@gmail.com for Transaction ID: txn_67e0d8c3ac395
+[2025-03-24 04:00:04] Investment completion notification sent to User ID: 763830
+[2025-03-24 07:14:37] - Request received: user_id = 763830, crypto_id = 7
+[2025-03-24 07:14:37] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-24 07:14:38] - Request received: user_id = 763830, crypto_symbol = USDT
+[2025-03-24 07:14:38] - Available balance for crypto_symbol (USDT): 4706.9
+[2025-03-24 07:14:38] - Response sent: success = true, available_balance = 4706.9
+[2025-03-24 07:14:38] Received request for investment plan with plan_id: 13
+[2025-03-24 07:14:38] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-24 07:14:38] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4706.00"}
+[2025-03-24 07:14:38] Received investment request. User ID: 763830, Crypto ID: 7, Plan ID: 13, Investment Amount: 4706
+[2025-03-24 07:14:38] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-24 07:14:38] User 763830's balance updated. New balance: 0.89999999999964
+[2025-03-24 07:14:38] Investment added successfully for User ID: 763830
+[2025-03-24 07:14:38] Transaction added successfully. Transaction ID: txn_67e1065e7ffd8, User ID: 763830, Amount: 4706
+[2025-03-24 07:14:40] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-24 07:14:40] Investment notification inserted for User ID: 763830
+[2025-03-24 08:09:02] - Request received: user_id = 968213, crypto_id = 1
+[2025-03-24 08:09:02] - Success: Crypto symbol found: BTC for crypto_id = 1.
+[2025-03-24 08:09:02] - Request received: user_id = 968213, crypto_symbol = BTC
+[2025-03-24 08:09:02] - Available balance for crypto_symbol (BTC): 1000
+[2025-03-24 08:09:02] - Response sent: success = true, available_balance = 1000
+[2025-03-24 08:09:02] Received request for investment plan with plan_id: 2
+[2025-03-24 08:09:02] Investment plan found. Plan details: {"id":2,"crypto_id":1,"name":"BTC Trial Mining","roi":"5.00","roi_max":"5.00","minimum":"1000.00","maximum":"2999.00","earning_duration":"1440","duration_timeframe":"30","duration":"1440","commission":"5.00","benefit":" Monitoring profits daily","created_at":"2025-01-11 10:20:33","updated_at":"2025-03-20 13:14:15"}
+[2025-03-24 08:09:02] Raw input: {"crypto_id":1,"plan_id":2,"investment_amount":"1000.00"}
+[2025-03-24 08:09:02] Received investment request. User ID: 968213, Crypto ID: 1, Plan ID: 2, Investment Amount: 1000
+[2025-03-24 08:09:02] Crypto symbol found: BTC for crypto_id: 1
+[2025-03-24 08:09:02] User 968213's balance updated. New balance: 39
+[2025-03-24 08:09:02] Investment added successfully for User ID: 968213
+[2025-03-24 08:09:02] Transaction added successfully. Transaction ID: txn_67e1131e668b3, User ID: 968213, Amount: 1000
+[2025-03-24 08:09:04] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-24 08:09:04] Investment notification inserted for User ID: 968213
+Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 1
+    [plan_id] => 3
+    [name] => BTC Bronze Mining
+    [roi] => 10
+    [roi_max] => 10
+    [minimum] => 3000.00
+    [maximum] => 4999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 30
+    [duration] => 1440
+    [commission] => 15.00
+    [benefit] =>  Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+[2025-03-24 14:42:11] - Request received: user_id = 996970, crypto_id = 7
+[2025-03-24 14:42:11] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-24 14:42:11] - Request received: user_id = 996970, crypto_symbol = USDT
+[2025-03-24 14:42:11] - Available balance for crypto_symbol (USDT): 36840
+[2025-03-24 14:42:11] - Response sent: success = true, available_balance = 36840
+[2025-03-24 14:42:11] Received request for investment plan with plan_id: 15
+[2025-03-24 14:42:11] Investment plan found. Plan details: {"id":15,"crypto_id":7,"name":"USDT Gold Minning","roi":"10.00","roi_max":"10.00","minimum":"10000.00","maximum":"500000.00","earning_duration":"1440","duration_timeframe":"30","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:15:46","updated_at":"2025-03-18 16:19:21"}
+[2025-03-24 14:42:11] Raw input: {"crypto_id":7,"plan_id":15,"investment_amount":"15000.00"}
+[2025-03-24 14:42:11] Received investment request. User ID: 996970, Crypto ID: 7, Plan ID: 15, Investment Amount: 15000
+[2025-03-24 14:42:11] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-24 14:42:11] User 996970's balance updated. New balance: 21840
+[2025-03-24 14:42:11] Investment added successfully for User ID: 996970
+[2025-03-24 14:42:11] Transaction added successfully. Transaction ID: txn_67e16f43ee908, User ID: 996970, Amount: 15000
+[2025-03-24 14:42:14] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-24 14:42:14] Investment notification inserted for User ID: 996970
+[2025-03-24 16:00:03] Investment 73 completed. Total earnings: 458.5
+[2025-03-24 16:00:03] User 280207's balance updated. New balance: 51646.25
+[2025-03-24 16:00:03] Transaction added successfully. Transaction ID: txn_67e18183aabad, User ID: 280207, Amount: 5043.5, Crypto Symbol: USDT
+[2025-03-24 16:00:04] Investment completion email sent to marcos.side1a11@gmail.com for Transaction ID: txn_67e18183aabad
+[2025-03-24 16:00:04] Investment completion notification sent to User ID: 280207
+[2025-03-24 16:25:32] - Request received: user_id = 280207, crypto_id = 7
+[2025-03-24 16:25:32] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-24 16:25:32] - Request received: user_id = 280207, crypto_symbol = USDT
+[2025-03-24 16:25:32] - Available balance for crypto_symbol (USDT): 51646.25
+[2025-03-24 16:25:32] - Response sent: success = true, available_balance = 51646.25
+[2025-03-24 16:25:33] Received request for investment plan with plan_id: 13
+[2025-03-24 16:25:33] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-24 16:25:33] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4585.00"}
+[2025-03-24 16:25:33] Received investment request. User ID: 280207, Crypto ID: 7, Plan ID: 13, Investment Amount: 4585
+[2025-03-24 16:25:33] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-24 16:25:33] User 280207's balance updated. New balance: 47061.25
+[2025-03-24 16:25:33] Investment added successfully for User ID: 280207
+[2025-03-24 16:25:33] Transaction added successfully. Transaction ID: txn_67e1877d71c3b, User ID: 280207, Amount: 4585
+[2025-03-24 16:25:35] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-24 16:25:35] Investment notification inserted for User ID: 280207
+Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":false,"message":"Invalid request or session email not set."}Raw POST Data:
+
+
+Parsed Form Data:
+Array
+(
+    [crypto_id] => 1
+    [plan_id] => 5
+    [name] => BTC Silver Mining
+    [roi] => 5.00
+    [roi_max] => 5.00
+    [minimum] => 5000.00
+    [maximum] => 9999.00
+    [earning_duration] => 1440
+    [duration_timeframe] => 4
+    [duration] => 1440
+    [commission] => 15.00
+    [benefit] =>  Monitoring profits daily
+)
+
+
+Response:
+{"success":true,"message":"Investment plan updated successfully!"}
+
+[2025-03-25 04:00:04] Investment 74 completed. Total earnings: 700
+[2025-03-25 04:00:04] User 274946's balance updated. New balance: 19159.34
+[2025-03-25 04:00:04] Transaction added successfully. Transaction ID: txn_67e22a4444dc0, User ID: 274946, Amount: 5700, Crypto Symbol: USDT
+[2025-03-25 04:00:04] Investment completion email sent to support@simartpro.com for Transaction ID: txn_67e22a4444dc0
+[2025-03-25 04:00:04] Investment completion notification sent to User ID: 274946
+Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":false,"message":"Invalid request or session email not set."}Response: {"success":false,"message":"Invalid request or session email not set."}[2025-03-25 16:00:04] Investment 75 completed. Total earnings: 1050
+[2025-03-25 16:00:04] User 274946's balance updated. New balance: 25209.34
+[2025-03-25 16:00:04] Transaction added successfully. Transaction ID: txn_67e2d3046c7e6, User ID: 274946, Amount: 6050, Crypto Symbol: ETH
+[2025-03-25 16:00:04] Investment completion email sent to support@simartpro.com for Transaction ID: txn_67e2d3046c7e6
+[2025-03-25 16:00:04] Investment completion notification sent to User ID: 274946
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":false,"message":"Invalid request or session email not set."}[2025-03-26 03:38:12] - Request received: user_id = 339205, crypto_id = 7
+[2025-03-26 03:38:12] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-26 03:38:12] - Request received: user_id = 339205, crypto_symbol = USDT
+[2025-03-26 03:38:12] - Available balance for crypto_symbol (USDT): 259999
+[2025-03-26 03:38:12] - Response sent: success = true, available_balance = 259999
+[2025-03-26 03:38:12] Received request for investment plan with plan_id: 15
+[2025-03-26 03:38:12] Investment plan found. Plan details: {"id":15,"crypto_id":7,"name":"USDT Gold Minning","roi":"10.00","roi_max":"10.00","minimum":"10000.00","maximum":"500000.00","earning_duration":"1440","duration_timeframe":"30","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:15:46","updated_at":"2025-03-18 16:19:21"}
+[2025-03-26 03:38:13] Raw input: {"crypto_id":7,"plan_id":15,"investment_amount":"259999.00"}
+[2025-03-26 03:38:13] Received investment request. User ID: 339205, Crypto ID: 7, Plan ID: 15, Investment Amount: 259999
+[2025-03-26 03:38:13] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-26 03:38:13] User 339205's balance updated. New balance: 0
+[2025-03-26 03:38:13] Investment added successfully for User ID: 339205
+[2025-03-26 03:38:13] Transaction added successfully. Transaction ID: txn_67e376a529e26, User ID: 339205, Amount: 259999
+[2025-03-26 03:38:15] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-26 03:38:15] Investment notification inserted for User ID: 339205
+[2025-03-26 04:00:05] Investment 76 completed. Total earnings: 1050
+[2025-03-26 04:00:05] User 274946's balance updated. New balance: 31259.34
+[2025-03-26 04:00:05] Transaction added successfully. Transaction ID: txn_67e37bc52a4ab, User ID: 274946, Amount: 6050, Crypto Symbol: ETH
+[2025-03-26 04:00:05] Investment completion email sent to support@simartpro.com for Transaction ID: txn_67e37bc52a4ab
+[2025-03-26 04:00:05] Investment completion notification sent to User ID: 274946
+Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-03-26 15:48:46] - Request received: user_id = 996970, crypto_id = 7
+[2025-03-26 15:48:46] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-26 15:48:46] - Request received: user_id = 996970, crypto_symbol = USDT
+[2025-03-26 15:48:46] - Available balance for crypto_symbol (USDT): 21840
+[2025-03-26 15:48:46] - Response sent: success = true, available_balance = 21840
+[2025-03-26 15:48:46] Received request for investment plan with plan_id: 15
+[2025-03-26 15:48:46] Investment plan found. Plan details: {"id":15,"crypto_id":7,"name":"USDT Gold Minning","roi":"10.00","roi_max":"10.00","minimum":"10000.00","maximum":"500000.00","earning_duration":"1440","duration_timeframe":"30","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:15:46","updated_at":"2025-03-18 16:19:21"}
+[2025-03-26 15:48:46] Raw input: {"crypto_id":7,"plan_id":15,"investment_amount":"10000.00"}
+[2025-03-26 15:48:46] Received investment request. User ID: 996970, Crypto ID: 7, Plan ID: 15, Investment Amount: 10000
+[2025-03-26 15:48:46] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-26 15:48:46] User 996970's balance updated. New balance: 11840
+[2025-03-26 15:48:46] Investment added successfully for User ID: 996970
+[2025-03-26 15:48:46] Transaction added successfully. Transaction ID: txn_67e421dec19c9, User ID: 996970, Amount: 10000
+[2025-03-26 15:48:48] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-26 15:48:48] Investment notification inserted for User ID: 996970
+[2025-03-26 16:00:03] Investment 77 updated. Incremental earnings added: 36000, Total earnings: 36000
+[2025-03-26 16:00:03] Investment 78 completed. Total earnings: 600
+[2025-03-26 16:00:03] User 996970's balance updated. New balance: 16440
+[2025-03-26 16:00:03] Transaction added successfully. Transaction ID: txn_67e42483dfe04, User ID: 996970, Amount: 4600, Crypto Symbol: USDT
+[2025-03-26 16:00:04] Investment completion email sent to de33000@gmail.com for Transaction ID: txn_67e42483dfe04
+[2025-03-26 16:00:04] Investment completion notification sent to User ID: 996970
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-03-27 04:00:04] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-03-27 04:00:04] Investment 79 completed. Total earnings: 705.9
+[2025-03-27 04:00:04] User 763830's balance updated. New balance: 5412.8
+[2025-03-27 04:00:04] Transaction added successfully. Transaction ID: txn_67e4cd44483dd, User ID: 763830, Amount: 5411.9, Crypto Symbol: USDT
+[2025-03-27 04:00:04] Investment completion email sent to rgt241@gmail.com for Transaction ID: txn_67e4cd44483dd
+[2025-03-27 04:00:04] Investment completion notification sent to User ID: 763830
+Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-03-27 11:18:41] - Request received: user_id = 763830, crypto_id = 7
+[2025-03-27 11:18:41] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-27 11:18:42] - Request received: user_id = 763830, crypto_symbol = USDT
+[2025-03-27 11:18:42] - Available balance for crypto_symbol (USDT): 5412.8
+[2025-03-27 11:18:42] - Response sent: success = true, available_balance = 5412.8
+[2025-03-27 11:18:42] Received request for investment plan with plan_id: 14
+[2025-03-27 11:18:42] Investment plan found. Plan details: {"id":14,"crypto_id":7,"name":"USDT Silver Minning","roi":"7.00","roi_max":"5.00","minimum":"5000.00","maximum":"9999.00","earning_duration":"1440","duration_timeframe":"4","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:13:08","updated_at":"2025-03-18 16:20:29"}
+[2025-03-27 11:18:42] Raw input: {"crypto_id":7,"plan_id":14,"investment_amount":"5412.00"}
+[2025-03-27 11:18:42] Received investment request. User ID: 763830, Crypto ID: 7, Plan ID: 14, Investment Amount: 5412
+[2025-03-27 11:18:42] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-27 11:18:42] User 763830's balance updated. New balance: 0.80000000000018
+[2025-03-27 11:18:42] Investment added successfully for User ID: 763830
+[2025-03-27 11:18:42] Transaction added successfully. Transaction ID: txn_67e534126686b, User ID: 763830, Amount: 5412
+[2025-03-27 11:18:44] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-27 11:18:44] Investment notification inserted for User ID: 763830
+[2025-03-27 16:00:03] Investment 77 updated. Incremental earnings added: 9000, Total earnings: 45000
+[2025-03-27 16:00:03] Investment 80 updated. Incremental earnings added: 150, Total earnings: 150
+[2025-03-27 16:00:03] Investment 81 updated. Incremental earnings added: 4500, Total earnings: 4500
+[2025-03-27 16:00:03] Investment 82 completed. Total earnings: 687.75
+[2025-03-27 16:00:03] User 280207's balance updated. New balance: 52334
+[2025-03-27 16:00:03] Transaction added successfully. Transaction ID: txn_67e57603cae17, User ID: 280207, Amount: 5272.75, Crypto Symbol: USDT
+[2025-03-27 16:00:04] Investment completion email sent to marcos.side1a11@gmail.com for Transaction ID: txn_67e57603cae17
+[2025-03-27 16:00:04] Investment completion notification sent to User ID: 280207
+[2025-03-27 16:03:25] - Request received: user_id = 280207, crypto_id = 7
+[2025-03-27 16:03:25] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-27 16:03:25] - Request received: user_id = 280207, crypto_symbol = USDT
+[2025-03-27 16:03:25] - Available balance for crypto_symbol (USDT): 52334
+[2025-03-27 16:03:25] - Response sent: success = true, available_balance = 52334
+[2025-03-27 16:03:26] Received request for investment plan with plan_id: 13
+[2025-03-27 16:03:26] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-27 16:03:26] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4585.00"}
+[2025-03-27 16:03:26] Received investment request. User ID: 280207, Crypto ID: 7, Plan ID: 13, Investment Amount: 4585
+[2025-03-27 16:03:26] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-27 16:03:26] User 280207's balance updated. New balance: 47749
+[2025-03-27 16:03:26] Investment added successfully for User ID: 280207
+[2025-03-27 16:03:26] Transaction added successfully. Transaction ID: txn_67e576ce9ac17, User ID: 280207, Amount: 4585
+[2025-03-27 16:03:28] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-27 16:03:28] Investment notification inserted for User ID: 280207
+[2025-03-28 04:00:03] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-03-28 04:00:03] Investment 80: Not enough time has elapsed for earnings to be added.
+[2025-03-28 04:00:03] Investment 81: Not enough time has elapsed for earnings to be added.
+[2025-03-28 04:00:03] Investment 83 updated. Incremental earnings added: 51999.8, Total earnings: 51999.8
+[2025-03-28 04:00:03] Investment 84 updated. Incremental earnings added: 1000, Total earnings: 1000
+[2025-03-28 04:00:03] Investment 85: Not enough time has elapsed for earnings to be added.
+[2025-03-28 04:00:03] Investment 86: Not enough time has elapsed for earnings to be added.
+[2025-03-28 09:30:53] - Request received: user_id = 810175, crypto_id = 1
+[2025-03-28 09:30:53] - Success: Crypto symbol found: BTC for crypto_id = 1.
+[2025-03-28 09:30:54] - Request received: user_id = 810175, crypto_symbol = BTC
+[2025-03-28 09:30:54] - Available balance for crypto_symbol (BTC): 0
+[2025-03-28 09:30:54] - Response sent: success = true, available_balance = 0
+[2025-03-28 09:31:22] - Request received: user_id = 810175, crypto_id = 7
+[2025-03-28 09:31:22] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-28 09:31:23] - Request received: user_id = 810175, crypto_symbol = USDT
+[2025-03-28 09:31:23] - Available balance for crypto_symbol (USDT): 24357.75
+[2025-03-28 09:31:23] - Response sent: success = true, available_balance = 24357.75
+[2025-03-28 09:31:24] Received request for investment plan with plan_id: 13
+[2025-03-28 09:31:24] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-28 09:31:24] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"5000.00"}
+[2025-03-28 09:31:24] Received investment request. User ID: 810175, Crypto ID: 7, Plan ID: 13, Investment Amount: 5000
+[2025-03-28 09:31:24] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-28 09:31:24] Investment validation failed. Amount not within range.
+[2025-03-28 09:31:44] - Request received: user_id = 810175, crypto_id = 7
+[2025-03-28 09:31:44] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-28 09:31:44] - Request received: user_id = 810175, crypto_symbol = USDT
+[2025-03-28 09:31:44] - Available balance for crypto_symbol (USDT): 24357.75
+[2025-03-28 09:31:44] - Response sent: success = true, available_balance = 24357.75
+[2025-03-28 09:31:45] Received request for investment plan with plan_id: 13
+[2025-03-28 09:31:45] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-28 09:31:45] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4500.00"}
+[2025-03-28 09:31:45] Received investment request. User ID: 810175, Crypto ID: 7, Plan ID: 13, Investment Amount: 4500
+[2025-03-28 09:31:45] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-28 09:31:45] User 810175's balance updated. New balance: 21457.75
+[2025-03-28 09:31:45] Investment added successfully for User ID: 810175
+[2025-03-28 09:31:45] Transaction added successfully. Transaction ID: txn_67e66c818e6d3, User ID: 810175, Amount: 4500
+[2025-03-28 09:31:47] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-28 09:31:47] Investment notification inserted for User ID: 810175
+[2025-03-28 09:32:01] - Request received: user_id = 810175, crypto_id = 7
+[2025-03-28 09:32:01] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-28 09:32:01] - Request received: user_id = 810175, crypto_symbol = USDT
+[2025-03-28 09:32:01] - Available balance for crypto_symbol (USDT): 19857.75
+[2025-03-28 09:32:01] - Response sent: success = true, available_balance = 19857.75
+[2025-03-28 09:32:02] Received request for investment plan with plan_id: 14
+[2025-03-28 09:32:02] Investment plan found. Plan details: {"id":14,"crypto_id":7,"name":"USDT Silver Minning","roi":"7.00","roi_max":"5.00","minimum":"5000.00","maximum":"9999.00","earning_duration":"1440","duration_timeframe":"4","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:13:08","updated_at":"2025-03-18 16:20:29"}
+[2025-03-28 09:32:02] Raw input: {"crypto_id":7,"plan_id":14,"investment_amount":"6000.00"}
+[2025-03-28 09:32:02] Received investment request. User ID: 810175, Crypto ID: 7, Plan ID: 14, Investment Amount: 6000
+[2025-03-28 09:32:02] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-28 09:32:02] User 810175's balance updated. New balance: 15457.75
+[2025-03-28 09:32:02] Investment added successfully for User ID: 810175
+[2025-03-28 09:32:02] Transaction added successfully. Transaction ID: txn_67e66c925e914, User ID: 810175, Amount: 6000
+[2025-03-28 09:32:04] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-28 09:32:04] Investment notification inserted for User ID: 810175
+[2025-03-28 09:32:26] - Request received: user_id = 810175, crypto_id = 2
+[2025-03-28 09:32:26] - Success: Crypto symbol found: ETH for crypto_id = 2.
+[2025-03-28 09:32:27] - Request received: user_id = 810175, crypto_symbol = ETH
+[2025-03-28 09:32:27] - Available balance for crypto_symbol (ETH): 500
+[2025-03-28 09:32:27] - Response sent: success = true, available_balance = 500
+[2025-03-28 09:32:36] - Request received: user_id = 810175, crypto_id = 2
+[2025-03-28 09:32:36] - Success: Crypto symbol found: ETH for crypto_id = 2.
+[2025-03-28 09:32:36] - Request received: user_id = 810175, crypto_symbol = ETH
+[2025-03-28 09:32:36] - Available balance for crypto_symbol (ETH): 500
+[2025-03-28 09:32:36] - Response sent: success = true, available_balance = 500
+[2025-03-28 09:32:46] - Request received: user_id = 810175, crypto_id = 2
+[2025-03-28 09:32:46] - Success: Crypto symbol found: ETH for crypto_id = 2.
+[2025-03-28 09:32:46] - Request received: user_id = 810175, crypto_symbol = ETH
+[2025-03-28 09:32:46] - Available balance for crypto_symbol (ETH): 500
+[2025-03-28 09:32:46] - Response sent: success = true, available_balance = 500
+[2025-03-28 09:32:46] Received request for investment plan with plan_id: 7
+[2025-03-28 09:32:46] Investment plan found. Plan details: {"id":7,"crypto_id":2,"name":"ETH Trial Mining","roi":"2.50","roi_max":"2.50","minimum":"500.00","maximum":"2999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring profits daily","created_at":"2025-01-11 10:56:28","updated_at":"2025-03-22 09:58:38"}
+[2025-03-28 09:32:47] Raw input: {"crypto_id":2,"plan_id":7,"investment_amount":"500.00"}
+[2025-03-28 09:32:47] Received investment request. User ID: 810175, Crypto ID: 2, Plan ID: 7, Investment Amount: 500
+[2025-03-28 09:32:47] Crypto symbol found: ETH for crypto_id: 2
+[2025-03-28 09:32:47] User 810175's balance updated. New balance: 14957.75
+[2025-03-28 09:32:47] Investment added successfully for User ID: 810175
+[2025-03-28 09:32:47] Transaction added successfully. Transaction ID: txn_67e66cbf4f02b, User ID: 810175, Amount: 500
+[2025-03-28 09:32:49] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-28 09:32:49] Investment notification inserted for User ID: 810175
+[2025-03-28 16:00:04] Investment 77 updated. Incremental earnings added: 9000, Total earnings: 54000
+[2025-03-28 16:00:04] Investment 80 updated. Incremental earnings added: 50, Total earnings: 200
+[2025-03-28 16:00:04] Investment 81 updated. Incremental earnings added: 1500, Total earnings: 6000
+[2025-03-28 16:00:04] Investment 83: Not enough time has elapsed for earnings to be added.
+[2025-03-28 16:00:04] Investment 84: Not enough time has elapsed for earnings to be added.
+[2025-03-28 16:00:04] Investment 85 updated. Incremental earnings added: 378.84, Total earnings: 378.84
+[2025-03-28 16:00:04] Investment 86 updated. Incremental earnings added: 229.25, Total earnings: 229.25
+[2025-03-28 16:00:04] Investment 87: Not enough time has elapsed for earnings to be added.
+[2025-03-28 16:00:04] Investment 88: Not enough time has elapsed for earnings to be added.
+[2025-03-28 16:00:04] Investment 89: Not enough time has elapsed for earnings to be added.
+Response: {"success":true,"message":"A new OTP has been sent to your email."}[2025-03-29 04:00:04] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-03-29 04:00:04] Investment 80: Not enough time has elapsed for earnings to be added.
+[2025-03-29 04:00:04] Investment 81: Not enough time has elapsed for earnings to be added.
+[2025-03-29 04:00:04] Investment 83 updated. Incremental earnings added: 25999.9, Total earnings: 77999.7
+[2025-03-29 04:00:04] Investment 84 updated. Incremental earnings added: 1000, Total earnings: 2000
+[2025-03-29 04:00:04] Investment 85: Not enough time has elapsed for earnings to be added.
+[2025-03-29 04:00:04] Investment 86: Not enough time has elapsed for earnings to be added.
+[2025-03-29 04:00:04] Investment 87: Not enough time has elapsed for earnings to be added.
+[2025-03-29 04:00:04] Investment 88: Not enough time has elapsed for earnings to be added.
+[2025-03-29 04:00:04] Investment 89: Not enough time has elapsed for earnings to be added.
+Response: {"success":false,"message":"Invalid request or session email not set."}[2025-03-29 16:00:03] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-03-29 16:00:03] Investment 80: Not enough time has elapsed for earnings to be added.
+[2025-03-29 16:00:03] Investment 81: Not enough time has elapsed for earnings to be added.
+[2025-03-29 16:00:03] Investment 83: Not enough time has elapsed for earnings to be added.
+[2025-03-29 16:00:03] Investment 84: Not enough time has elapsed for earnings to be added.
+[2025-03-29 16:00:03] Investment 85: Not enough time has elapsed for earnings to be added.
+[2025-03-29 16:00:03] Investment 86: Not enough time has elapsed for earnings to be added.
+[2025-03-29 16:00:03] Investment 87 updated. Incremental earnings added: 225, Total earnings: 225
+[2025-03-29 16:00:03] Investment 88 updated. Incremental earnings added: 420, Total earnings: 420
+[2025-03-29 16:00:03] Investment 89 updated. Incremental earnings added: 12.5, Total earnings: 12.5
+[2025-03-30 04:00:03] Investment 77 updated. Incremental earnings added: 9000, Total earnings: 63000
+[2025-03-30 04:00:03] Investment 80 updated. Incremental earnings added: 50, Total earnings: 250
+[2025-03-30 04:00:03] Investment 81 updated. Incremental earnings added: 1500, Total earnings: 7500
+[2025-03-30 04:00:03] Investment 83: Not enough time has elapsed for earnings to be added.
+[2025-03-30 04:00:03] Investment 84: Not enough time has elapsed for earnings to be added.
+[2025-03-30 04:00:03] Investment 85 updated. Incremental earnings added: 378.84, Total earnings: 757.68
+[2025-03-30 04:00:03] Investment 86 completed. Total earnings: 458.5
+[2025-03-30 04:00:03] User 280207's balance updated. New balance: 52792.5
+[2025-03-30 04:00:03] Transaction added successfully. Transaction ID: txn_67e8c1c3c0963, User ID: 280207, Amount: 5043.5, Crypto Symbol: USDT
+[2025-03-30 04:00:04] Investment completion email sent to marcos.side1a11@gmail.com for Transaction ID: txn_67e8c1c3c0963
+[2025-03-30 04:00:04] Investment completion notification sent to User ID: 280207
+Response: {"success":true,"message":"A new OTP has been sent to your email."}Response: {"success":false,"message":"Invalid request or session email not set."}[2025-03-30 15:38:19] - Request received: user_id = 280207, crypto_id = 7
+[2025-03-30 15:38:19] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-30 15:38:19] - Request received: user_id = 280207, crypto_symbol = USDT
+[2025-03-30 15:38:19] - Available balance for crypto_symbol (USDT): 52792.5
+[2025-03-30 15:38:19] - Response sent: success = true, available_balance = 52792.5
+[2025-03-30 15:38:19] Received request for investment plan with plan_id: 13
+[2025-03-30 15:38:19] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-03-30 15:38:20] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4585.00"}
+[2025-03-30 15:38:20] Received investment request. User ID: 280207, Crypto ID: 7, Plan ID: 13, Investment Amount: 4585
+[2025-03-30 15:38:20] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-30 15:38:20] User 280207's balance updated. New balance: 48207.5
+[2025-03-30 15:38:20] Investment added successfully for User ID: 280207
+[2025-03-30 15:38:20] Transaction added successfully. Transaction ID: txn_67e9656c2edb6, User ID: 280207, Amount: 4585
+[2025-03-30 15:38:22] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-30 15:38:22] Investment notification inserted for User ID: 280207
+[2025-03-30 16:00:03] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-03-30 16:00:03] Investment 80: Not enough time has elapsed for earnings to be added.
+[2025-03-30 16:00:03] Investment 81: Not enough time has elapsed for earnings to be added.
+[2025-03-30 16:00:03] Investment 83 updated. Incremental earnings added: 25999.9, Total earnings: 103999.6
+[2025-03-30 16:00:03] Investment 84 updated. Incremental earnings added: 1000, Total earnings: 3000
+[2025-03-30 16:00:03] Investment 85: Not enough time has elapsed for earnings to be added.
+[2025-03-30 16:00:03] Investment 87 completed. Total earnings: 450
+[2025-03-30 16:00:03] User 810175's balance updated. New balance: 19907.75
+[2025-03-30 16:00:03] Transaction added successfully. Transaction ID: txn_67e96a832f9a9, User ID: 810175, Amount: 4950, Crypto Symbol: USDT
+[2025-03-30 16:00:03] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_67e96a832f9a9
+[2025-03-30 16:00:03] Investment completion notification sent to User ID: 810175
+[2025-03-31 04:00:04] Investment 77 updated. Incremental earnings added: 9000, Total earnings: 72000
+[2025-03-31 04:00:04] Investment 80 updated. Incremental earnings added: 50, Total earnings: 300
+[2025-03-31 04:00:04] Investment 81 updated. Incremental earnings added: 1500, Total earnings: 9000
+[2025-03-31 04:00:04] Investment 83: Not enough time has elapsed for earnings to be added.
+[2025-03-31 04:00:04] Investment 84: Not enough time has elapsed for earnings to be added.
+[2025-03-31 04:00:04] Investment 85 completed. Total earnings: 1136.52
+[2025-03-31 04:00:04] User 763830's balance updated. New balance: 6549.32
+[2025-03-31 04:00:04] Transaction added successfully. Transaction ID: txn_67ea1344a3ef7, User ID: 763830, Amount: 6548.52, Crypto Symbol: USDT
+[2025-03-31 04:00:05] Investment completion email sent to rgt241@gmail.com for Transaction ID: txn_67ea1344a3ef7
+[2025-03-31 04:00:05] Investment completion notification sent to User ID: 763830
+[2025-03-31 08:09:14] - Request received: user_id = 763830, crypto_id = 7
+[2025-03-31 08:09:14] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-03-31 08:09:15] - Request received: user_id = 763830, crypto_symbol = USDT
+[2025-03-31 08:09:15] - Available balance for crypto_symbol (USDT): 6549.32
+[2025-03-31 08:09:15] - Response sent: success = true, available_balance = 6549.32
+[2025-03-31 08:09:15] Received request for investment plan with plan_id: 14
+[2025-03-31 08:09:15] Investment plan found. Plan details: {"id":14,"crypto_id":7,"name":"USDT Silver Minning","roi":"7.00","roi_max":"5.00","minimum":"5000.00","maximum":"9999.00","earning_duration":"1440","duration_timeframe":"4","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:13:08","updated_at":"2025-03-18 16:20:29"}
+[2025-03-31 08:09:15] Raw input: {"crypto_id":7,"plan_id":14,"investment_amount":"5859.00"}
+[2025-03-31 08:09:15] Received investment request. User ID: 763830, Crypto ID: 7, Plan ID: 14, Investment Amount: 5859
+[2025-03-31 08:09:15] Crypto symbol found: USDT for crypto_id: 7
+[2025-03-31 08:09:15] User 763830's balance updated. New balance: 690.32
+[2025-03-31 08:09:15] Investment added successfully for User ID: 763830
+[2025-03-31 08:09:15] Transaction added successfully. Transaction ID: txn_67ea4dab8f168, User ID: 763830, Amount: 5859
+[2025-03-31 08:09:17] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-03-31 08:09:17] Investment notification inserted for User ID: 763830
+[2025-03-31 16:00:03] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-03-31 16:00:03] Investment 80: Not enough time has elapsed for earnings to be added.
+[2025-03-31 16:00:03] Investment 81: Not enough time has elapsed for earnings to be added.
+[2025-03-31 16:00:03] Investment 83 updated. Incremental earnings added: 25999.9, Total earnings: 129999.5
+[2025-03-31 16:00:03] Investment 84 updated. Incremental earnings added: 1000, Total earnings: 4000
+[2025-03-31 16:00:03] Investment 88 completed. Total earnings: 1260
+[2025-03-31 16:00:03] User 810175's balance updated. New balance: 27167.75
+[2025-03-31 16:00:03] Transaction added successfully. Transaction ID: txn_67eabc039e4e0, User ID: 810175, Amount: 7260, Crypto Symbol: USDT
+[2025-03-31 16:00:04] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_67eabc039e4e0
+[2025-03-31 16:00:04] Investment completion notification sent to User ID: 810175
+[2025-04-01 04:00:04] Investment 77 updated. Incremental earnings added: 9000, Total earnings: 81000
+[2025-04-01 04:00:04] Investment 80 updated. Incremental earnings added: 50, Total earnings: 350
+[2025-04-01 04:00:04] Investment 81 updated. Incremental earnings added: 1500, Total earnings: 10500
+[2025-04-01 04:00:04] Investment 83: Not enough time has elapsed for earnings to be added.
+[2025-04-01 04:00:04] Investment 84: Not enough time has elapsed for earnings to be added.
+[2025-04-01 04:00:04] Investment 89 completed. Total earnings: 37.5
+[2025-04-01 04:00:04] User 810175's balance updated. New balance: 27705.25
+[2025-04-01 04:00:05] Transaction added successfully. Transaction ID: txn_67eb64c4f0e67, User ID: 810175, Amount: 537.5, Crypto Symbol: ETH
+[2025-04-01 04:00:05] Investment completion email sent to dannywiz480@gmail.com for Transaction ID: txn_67eb64c4f0e67
+[2025-04-01 04:00:05] Investment completion notification sent to User ID: 810175
+[2025-04-01 16:00:03] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-04-01 16:00:03] Investment 80: Not enough time has elapsed for earnings to be added.
+[2025-04-01 16:00:03] Investment 81: Not enough time has elapsed for earnings to be added.
+[2025-04-01 16:00:03] Investment 83 updated. Incremental earnings added: 25999.9, Total earnings: 155999.4
+[2025-04-01 16:00:03] Investment 84 updated. Incremental earnings added: 1000, Total earnings: 5000
+[2025-04-01 16:00:03] Investment 90 completed. Total earnings: 458.5
+[2025-04-01 16:00:03] User 280207's balance updated. New balance: 53251
+[2025-04-01 16:00:03] Transaction added successfully. Transaction ID: txn_67ec0d839db9f, User ID: 280207, Amount: 5043.5, Crypto Symbol: USDT
+[2025-04-01 16:00:04] Investment completion email sent to marcos.side1a11@gmail.com for Transaction ID: txn_67ec0d839db9f
+[2025-04-01 16:00:04] Investment completion notification sent to User ID: 280207
+[2025-04-01 16:20:31] - Request received: user_id = 280207, crypto_id = 7
+[2025-04-01 16:20:31] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-04-01 16:20:32] - Request received: user_id = 280207, crypto_symbol = USDT
+[2025-04-01 16:20:32] - Available balance for crypto_symbol (USDT): 53251
+[2025-04-01 16:20:32] - Response sent: success = true, available_balance = 53251
+[2025-04-01 16:20:32] Received request for investment plan with plan_id: 13
+[2025-04-01 16:20:32] Investment plan found. Plan details: {"id":13,"crypto_id":7,"name":"USDT Bronze Minning","roi":"5.00","roi_max":"3.00","minimum":"3000.00","maximum":"4999.00","earning_duration":"1440","duration_timeframe":"3","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:10:45","updated_at":"2025-03-18 16:20:09"}
+[2025-04-01 16:20:32] Raw input: {"crypto_id":7,"plan_id":13,"investment_amount":"4585.00"}
+[2025-04-01 16:20:32] Received investment request. User ID: 280207, Crypto ID: 7, Plan ID: 13, Investment Amount: 4585
+[2025-04-01 16:20:32] Crypto symbol found: USDT for crypto_id: 7
+[2025-04-01 16:20:32] User 280207's balance updated. New balance: 48666
+[2025-04-01 16:20:32] Investment added successfully for User ID: 280207
+[2025-04-01 16:20:32] Transaction added successfully. Transaction ID: txn_67ec12509ec9e, User ID: 280207, Amount: 4585
+[2025-04-01 16:20:34] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-04-01 16:20:34] Investment notification inserted for User ID: 280207
+[2025-04-02 04:00:04] Investment 77 updated. Incremental earnings added: 9000, Total earnings: 90000
+[2025-04-02 04:00:04] Investment 80 updated. Incremental earnings added: 50, Total earnings: 400
+[2025-04-02 04:00:04] Investment 81 updated. Incremental earnings added: 1500, Total earnings: 12000
+[2025-04-02 04:00:04] Investment 83: Not enough time has elapsed for earnings to be added.
+[2025-04-02 04:00:04] Investment 84: Not enough time has elapsed for earnings to be added.
+[2025-04-02 04:00:04] Investment 91 updated. Incremental earnings added: 410.13, Total earnings: 410.13
+[2025-04-02 04:00:04] Investment 92: Not enough time has elapsed for earnings to be added.
+[2025-04-02 16:00:03] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-04-02 16:00:03] Investment 80: Not enough time has elapsed for earnings to be added.
+[2025-04-02 16:00:03] Investment 81: Not enough time has elapsed for earnings to be added.
+[2025-04-02 16:00:03] Investment 83 updated. Incremental earnings added: 25999.9, Total earnings: 181999.3
+[2025-04-02 16:00:03] Investment 84 updated. Incremental earnings added: 1000, Total earnings: 6000
+[2025-04-02 16:00:03] Investment 91: Not enough time has elapsed for earnings to be added.
+[2025-04-02 16:00:03] Investment 92 updated. Incremental earnings added: 229.25, Total earnings: 229.25
+[2025-04-03 04:00:03] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-04-03 04:00:03] Investment 80: Not enough time has elapsed for earnings to be added.
+[2025-04-03 04:00:03] Investment 81: Not enough time has elapsed for earnings to be added.
+[2025-04-03 04:00:03] Investment 83: Not enough time has elapsed for earnings to be added.
+[2025-04-03 04:00:03] Investment 84: Not enough time has elapsed for earnings to be added.
+[2025-04-03 04:00:03] Investment 91: Not enough time has elapsed for earnings to be added.
+[2025-04-03 04:00:03] Investment 92: Not enough time has elapsed for earnings to be added.
+[2025-04-03 16:00:03] Investment 77 updated. Incremental earnings added: 9000, Total earnings: 99000
+[2025-04-03 16:00:03] Investment 80 updated. Incremental earnings added: 50, Total earnings: 450
+[2025-04-03 16:00:03] Investment 81 updated. Incremental earnings added: 1500, Total earnings: 13500
+[2025-04-03 16:00:03] Investment 83 updated. Incremental earnings added: 25999.9, Total earnings: 207999.2
+[2025-04-03 16:00:03] Investment 84 updated. Incremental earnings added: 1000, Total earnings: 7000
+[2025-04-03 16:00:03] Investment 91 completed. Total earnings: 820.26
+[2025-04-03 16:00:03] User 763830's balance updated. New balance: 7369.58
+[2025-04-03 16:00:03] Transaction added successfully. Transaction ID: txn_67eeb0835bc91, User ID: 763830, Amount: 6679.26, Crypto Symbol: USDT
+[2025-04-03 16:00:04] Investment completion email sent to rgt241@gmail.com for Transaction ID: txn_67eeb0835bc91
+[2025-04-03 16:00:04] Investment completion notification sent to User ID: 763830
+[2025-04-04 04:00:04] Investment 77: Not enough time has elapsed for earnings to be added.
+[2025-04-04 04:00:04] Investment 80: Not enough time has elapsed for earnings to be added.
+[2025-04-04 04:00:04] Investment 81: Not enough time has elapsed for earnings to be added.
+[2025-04-04 04:00:04] Investment 83: Not enough time has elapsed for earnings to be added.
+[2025-04-04 04:00:04] Investment 84: Not enough time has elapsed for earnings to be added.
+[2025-04-04 04:00:04] Investment 92 completed. Total earnings: 458.5
+[2025-04-04 04:00:04] User 280207's balance updated. New balance: 53709.5
+[2025-04-04 04:00:04] Transaction added successfully. Transaction ID: txn_67ef5944b0aa6, User ID: 280207, Amount: 5043.5, Crypto Symbol: USDT
+[2025-04-04 04:00:05] Investment completion email sent to marcos.side1a11@gmail.com for Transaction ID: txn_67ef5944b0aa6
+[2025-04-04 04:00:05] Investment completion notification sent to User ID: 280207
+[2025-04-04 08:59:35] - Request received: user_id = 763830, crypto_id = 7
+[2025-04-04 08:59:35] - Success: Crypto symbol found: USDT for crypto_id = 7.
+[2025-04-04 08:59:35] - Request received: user_id = 763830, crypto_symbol = USDT
+[2025-04-04 08:59:35] - Available balance for crypto_symbol (USDT): 7369.58
+[2025-04-04 08:59:35] - Response sent: success = true, available_balance = 7369.58
+[2025-04-04 08:59:36] Received request for investment plan with plan_id: 14
+[2025-04-04 08:59:36] Investment plan found. Plan details: {"id":14,"crypto_id":7,"name":"USDT Silver Minning","roi":"7.00","roi_max":"5.00","minimum":"5000.00","maximum":"9999.00","earning_duration":"1440","duration_timeframe":"4","duration":"1440","commission":"5.00","benefit":"Monitoring Profits Daily","created_at":"2025-01-11 11:13:08","updated_at":"2025-03-18 16:20:29"}
+[2025-04-04 08:59:36] Raw input: {"crypto_id":7,"plan_id":14,"investment_amount":"7369.00"}
+[2025-04-04 08:59:36] Received investment request. User ID: 763830, Crypto ID: 7, Plan ID: 14, Investment Amount: 7369
+[2025-04-04 08:59:36] Crypto symbol found: USDT for crypto_id: 7
+[2025-04-04 08:59:36] User 763830's balance updated. New balance: 0.57999999999993
+[2025-04-04 08:59:36] Investment added successfully for User ID: 763830
+[2025-04-04 08:59:36] Transaction added successfully. Transaction ID: txn_67ef9f784fe93, User ID: 763830, Amount: 7369
+[2025-04-04 08:59:38] Email could not be sent. Mailer Error: SMTP Error: Could not authenticate.
+[2025-04-04 08:59:38] Investment notification inserted for User ID: 763830

@@ -1,0 +1,695 @@
+html{
+    animation: none;
+  }
+  :root {
+--background: #1a1a1a;
+--surface: #222222;
+--text-color: #F5F5F5;
+--secondary-text: #A9A9A9;
+--primary-dark: #A6841C;
+--primary-color: #6e591a;
+--border-color: #2A2A2A;
+--hover-color: rgba(255, 255, 255, 0.05);
+--positive-color: #00c853;
+--negative-color: #ff0000;
+
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+min-height: 100vh;
+color: white;
+padding: 2rem;
+}
+
+.investment-header {
+position: relative;
+margin-bottom: 2rem;
+}
+
+.investment-title {
+font-size: 1.5rem;
+font-weight: 500;
+cursor: pointer;
+display: flex;
+align-items: center;
+gap: 0.5rem;
+}
+
+.investment-title::after {
+content: '';
+display: inline-block;
+width: 0;
+height: 0;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-top: 5px solid white;
+margin-top: 3px;
+}
+
+.dropdown {
+position: absolute;
+top: 100%;
+left: 0;
+background: var(--surface);
+border-radius: 8px;
+padding: 0.5rem;
+min-width: 200px;
+display: none;
+z-index: 10;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown.active {
+display: block;
+}
+
+.dropdown-item {
+padding: 0.75rem 1rem;
+cursor: pointer;
+border-radius: 4px;
+transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+background-color: var(--hover-color);
+}
+
+.cards-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 1.5rem;
+max-width: 1200px;
+}
+
+.card {
+background: var(--surface);
+border-radius: 12px;
+padding: 2rem;
+position: relative;
+}
+
+.card-header {
+position: relative;
+margin-bottom: 1rem;
+cursor: pointer;
+}
+
+.card-header::after {
+content: '';
+display: inline-block;
+width: 0;
+height: 0;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-top: 5px solid white;
+position: absolute;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.card-title {
+font-size: 1.25rem;
+font-weight: 500;
+margin-bottom: 1.5rem;
+}
+
+.select-button {
+background: var(--background);
+border: none;
+color: var(--secondary-text);
+padding: 0.75rem 1rem;
+border-radius: 6px;
+cursor: pointer;
+width: 100%;
+text-align: left;
+font-size: 0.875rem;
+}
+
+.select-button::after {
+content: '';
+display: inline-block;
+width: 0;
+height: 0;
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+border-top: 4px solid #94a3b8;
+margin-left: 0.5rem;
+vertical-align: middle;
+}
+
+.select-button:hover {
+background-color: var(--hover-color); 
+
+}
+
+/* Modal Styles */
+.modal {
+height: 100vh;
+position: fixed;
+width: 100%;
+max-width: 100vw;
+background: #000000b1;
+backdrop-filter: blur(8px); 
+top: 0;
+width: 100%;
+z-index: 80000000;
+transition: all 0.6s ease;
+left: 0;
+right: 0;
+display: grid;
+place-content: center;
+place-items: center;
+overflow-y: scroll;
+scrollbar-width: none;
+opacity: 0;
+visibility: hidden;
+
+}
+
+.modal.active {
+opacity: 1;
+visibility: visible;
+
+
+}
+
+.modal-content {
+background: var(--surface);
+padding: 20px;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+justify-content: center;
+width: 420px;
+
+
+
+}
+
+
+
+.modal-title {
+margin-bottom: 1.5rem;
+font-size: 1.25rem;
+}
+
+.modal-input {
+background-color: var(--background);
+border: 1px solid rgba(128, 128, 128, 0.315);
+padding: 0.50rem 0.6rem;
+color: var(--text-clr);
+font-size: 1rem;
+transition: all 0.3s ease;
+border-radius: 4px;
+width: 100%;
+margin-bottom: 25px;
+}
+
+.modal-input:focus {
+outline: none;
+border-color: var(--primary-color);
+box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.1);
+}
+
+.modal-buttons {
+display: flex;
+gap: 1rem;
+justify-content: flex-end;
+}
+
+.modal-button {
+padding: 0.75rem 1.5rem;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 0.875rem;
+transition: background-color 0.2s;
+}
+.modal-button.cancel {
+background: var(--text-color);
+color: var(--background);
+
+}
+
+.modal-button.confirm {
+background: var(--primary-color);
+color: white;
+}
+
+.modal-button:hover {
+/* opacity: 0.9; */
+}
+
+/* Card Dropdown Styles */
+.card-dropdown {
+position: absolute;
+top: 100%;
+right: 0;
+background: var(--surface);
+border-radius: 8px;
+padding: 0.5rem;
+min-width: 150px;
+display: none;
+z-index: 10;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-dropdown.active {
+display: block;
+}
+
+.card-dropdown-item {
+padding: 0.75rem 1rem;
+cursor: pointer;
+border-radius: 4px;
+transition: background-color 0.2s;
+}
+
+.card-dropdown-item:hover {
+background-color: var(--hover-color);
+}
+
+/* Selection Options Styles */
+.selection-options {
+display: none;
+background: var(--background);
+border-radius: 8px;
+padding: 1rem;
+margin-top: 1rem;
+}
+
+.selection-options.active {
+display: block;
+}
+
+.selection-options h6 {
+font-size: 1rem;
+margin-bottom: 0.5rem;
+}
+
+.selection-options a {
+display: block;
+padding: 0.5rem;
+color: var(--text-secondary);
+text-decoration: none;
+transition: background-color 0.2s, color 0.2s;
+border-radius: 4px;
+}
+
+.selection-options a:hover {
+background-color: var(--surface);
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.plans-header {
+
+background-color: var(--surface);
+padding: 1.5rem;
+border-bottom: 1px solid var(--border-color);
+margin-top: 50px;
+}
+
+.dropdown-arrow{
+margin-top: 10px;
+content: '';
+display: inline-block;
+width: 0;
+height: 0;
+border-left: 7px solid transparent;
+border-right: 7px solid transparent;
+border-top: 7px solid white;
+cursor:pointer;   
+}
+.plans-header-dropdown{
+position: absolute;
+background: var(--background);
+border-radius: 8px;
+padding: 0.5rem;
+display: none;
+z-index: 10;
+margin-top: 20px;
+
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.plans-header-dropdown.active{
+display: block;
+
+}
+
+.plans-header-dropdown-item {
+padding: 0.75rem 1rem;
+cursor: pointer;
+text-align: left;
+border-radius: 4px;
+transition: background-color 0.2s;
+}
+
+.plans-header-dropdown-item:hover {
+background-color: var(--hover-color);
+}
+
+.header-content {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-left h1 {
+font-size: 1.5rem;
+margin-bottom: 0.5rem;
+}
+
+.header-left h4 {
+color: var(--secondary-text);
+font-weight: normal;
+font-size: 0.9rem;
+}
+
+.btn-back {
+background-color: var(--surface);
+color: var(--text-color);
+border: 1px solid var(--border-color);
+padding: 0.5rem 1rem;
+border-radius: 0.5rem;
+cursor: pointer;
+transition: background-color 0.2s;
+}
+
+.btn-back:hover {
+background-color: var(--hover-color);
+}
+
+.container {
+max-width: 1200px;
+margin: 2rem auto;
+padding: 0 1rem;
+}
+
+.plans-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1.5rem;
+}
+
+.plans-card {
+background-color: var(--surface);
+border: 1px solid var(--border-color);
+border-radius: 1rem;
+overflow: hidden;
+transition: transform 0.2s;
+}
+
+
+.plans-card-header {
+background-color: var(--hover-color);
+padding: 1rem;
+text-align: center;
+display:flex;
+gap: 40px;
+align-items:center;
+justify-content:center;
+
+}
+.plans-card-header:after {
+content: '';
+display: inline-block;
+width: 0;
+height: 0;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-top: 5px solid white;
+margin-top: 3px;
+cursor:pointer;
+}
+
+.plans-card-header h5 {
+font-size: 1.1rem;
+cursor: pointer;
+}
+.edit_mining_popup,
+.delete_mining_popup,
+.add_plan_popup,
+.delete_plan_popup,
+.edit_plan_popup,
+.invest_popup{
+visibility: hidden;
+opacity: 0;
+
+}
+.action_overlay{
+height: 100vh;
+position: fixed;
+width: 100%;
+max-width: 100vw;
+background: #000000b1;
+backdrop-filter: blur(8px); 
+top: 0;
+width: 100%;
+z-index: 80000000;
+transition: all 0.6s ease;
+left: 0;
+right: 0;
+display: grid;
+place-content: center;
+place-items: center;
+overflow-y: scroll;
+scrollbar-width: none;
+padding-top: 400px;
+padding-bottom: 30px;
+
+
+
+
+}
+
+.action_overlay > .wrapper{
+background: var(--surface);
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+border-radius: 10px;
+justify-content: center;
+width: 420px;
+
+
+}
+.action_overlay > .wrapper > header{
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+border-bottom: 1px solid rgba(128, 128, 128, 0.315);
+padding-bottom: 12px;
+cursor: default;
+}
+.action_overlay > .wrapper > header img{
+cursor: pointer;
+background: var(--text-color);
+padding: 2px;
+width: 25px;
+scale: 0.88;
+}
+.action_overlay > .wrapper > main{
+font-size: 18px;
+border-bottom: 1px solid rgba(128, 128, 128, 0.315);
+padding-bottom: 20px
+}
+.action_overlay > .wrapper > main form{
+display: flex;
+flex-direction: column;
+gap: 8px;
+
+}
+.action_overlay > .wrapper > main select{
+width: 200px;
+padding: 0.50rem 0.6rem;
+background-color: var(--background);
+border: 1px solid rgba(128, 128, 128, 0.315);
+border-radius: 4px;
+color: white;
+}
+
+.action_overlay > .wrapper > main label{
+color: var(--secondary-text);
+font-size: 14px;
+text-align: left;
+margin-left: 5px;
+}
+.action_overlay > .wrapper > main input,
+.action_overlay > .wrapper > main textarea{
+background-color: var(--background);
+border: 1px solid rgba(128, 128, 128, 0.315);
+padding: 0.50rem 0.6rem;
+color: var(--text-clr);
+font-size: 1rem;
+transition: all 0.3s ease;
+width: 200px;
+border-radius: 8px;
+
+}
+.action_overlay > .wrapper > main select:focus,
+.action_overlay > .wrapper > main input:focus,
+.action_overlay > .wrapper > main textarea:focus{
+
+outline: none;
+border-color: var(--primary-color);
+box-shadow: 0 0 0 4px rgba(94, 99, 255, 0.1);
+}
+
+.rate{
+display: flex;
+align-items: center;
+width: 100%;
+gap: 0;
+justify-content: start;
+padding: 10px;
+position: relative;
+flex-direction: row-reverse;
+}
+
+
+
+.negative_btn,
+.positive_btn{
+padding: 11px 20px;
+border: none;
+outline: none;
+cursor: pointer;
+color: var(--background);
+border-radius: 5px;
+background: var(--text-color);
+
+}
+.positive_btn{
+background: var(--primary-color);
+color: var(--text-color);
+
+
+}
+
+
+
+
+
+
+.plans-card-dropdown{
+position: absolute;
+background: var(--background);
+border-radius: 7px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding: 0.5rem;
+text-align: left;
+display: none;
+margin-left: 20px;
+margin-top: 8px;
+}
+.plans-card-dropdown-item{
+padding: 0.75rem 1rem;
+cursor: pointer;
+border-radius: 4px;
+transition: background-color 0.2s;
+font-size: 13px;
+}
+
+
+.plans-card-dropdown-item:hover {
+background-color: var(--hover-color);
+}
+
+
+.card-body {
+padding: 1.5rem;
+}
+
+.card-body-content {
+margin-bottom: 1.5rem;
+}
+
+.price-range {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+margin-bottom: 1.5rem;
+}
+
+.price-range h2 {
+font-size: 1.2rem;
+}
+
+.price-range i {
+color: var(--secondary-text);
+}
+
+h6 {
+color: var(--secondary-text);
+margin-bottom: 0.5rem;
+}
+
+ul {
+list-style: none;
+}
+
+.plans-card li {
+color: var(--secondary-text);
+margin-bottom: 0.5rem;
+padding-left: 1.5rem;
+position: relative;
+}
+
+.plans-card li::before {
+content: "•";
+color: var(--primary-color);
+position: absolute;
+left: 0;
+}
+
+.button-wrapper {
+text-align: center;
+}
+
+.btn-invest {
+background-color: var(--primary-color);
+color: var(--text-color);
+border: none;
+padding: 0.75rem 2rem;
+border-radius: 0.5rem;
+cursor: pointer;
+font-weight: 500;
+transition: background-color 0.2s;
+width: 100%;
+}
+
+.btn-invest:hover {
+background-color: var(--primary-dark);
+}
+
+@media (max-width: 768px) {
+.header-content {
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.plans-container {
+  grid-template-columns: 1fr;
+}
+}
